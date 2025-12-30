@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1277,7 +1284,7 @@
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Wolf Service</h2>
  <div class="services-grid">
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Range repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Range repair" loading="lazy" ></div>
  <h3>Wolf Range Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1330,7 +1337,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Rangetop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Rangetop repair" loading="lazy" ></div>
  <h3>Wolf Rangetop Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1383,7 +1390,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Cooktop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Cooktop repair" loading="lazy" ></div>
  <h3>Wolf Cooktop Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1436,7 +1443,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Wall oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Wall oven repair" loading="lazy" ></div>
  <h3>Wolf Wall Oven Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1489,7 +1496,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Steam oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Steam oven repair" loading="lazy" ></div>
  <h3>Wolf Steam Oven Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1542,7 +1549,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Microwave repair" loading="lazy" ></div>
  <h3>Wolf Microwave Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1595,7 +1602,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Ventilation repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Ventilation repair" loading="lazy" ></div>
  <h3>Wolf Ventilation Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1648,7 +1655,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Warming drawer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Warming drawer repair" loading="lazy" ></div>
  <h3>Wolf Warming Drawer Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1701,7 +1708,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Outdoor grill repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Outdoor grill repair" loading="lazy" ></div>
  <h3>Wolf Outdoor Grill Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>

@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1278,386 +1285,386 @@
  <section class="alt">
  <div class="container">
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
-             <div class="services-grid">
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Gas Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Gas Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Freestanding Gas Oven</li>
-                            <li>Slide-In Gas Oven</li>
-                            <li>Gas Range Oven</li>
-                            <li>Double Gas Oven</li>
-                            <li>Convection Gas Oven</li>
-                            <li>Commercial Gas Oven</li>
-                            <li>Professional Gas Oven</li>
-                            <li>Gas Wall Oven</li>
-                            <li>High-BTU Gas Oven</li>
-                        </ul>
-                        <div id="expandable-content-gas" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-gas" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Gas Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool gas oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their gas oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers gas oven options to match every household need and budget throughout Manhattan.</p>
+ <div class="services-grid">
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Gas Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Gas Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Freestanding Gas Oven</li>
+ <li>Slide-In Gas Oven</li>
+ <li>Gas Range Oven</li>
+ <li>Double Gas Oven</li>
+ <li>Convection Gas Oven</li>
+ <li>Commercial Gas Oven</li>
+ <li>Professional Gas Oven</li>
+ <li>Gas Wall Oven</li>
+ <li>High-BTU Gas Oven</li>
+ </ul>
+ <div id="expandable-content-gas" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-gas" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Gas Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool gas oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their gas oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers gas oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Gas Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool gas oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Gas Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool gas oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Gas Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool gas oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Gas Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool gas oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Gas Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool gas oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool gas oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Gas Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool gas oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool gas oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Gas Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool gas oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Gas Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool gas oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Gas Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest gas oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most gas oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable gas oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Gas Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest gas oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most gas oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable gas oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-gas" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-gas" onclick="toggleExpand('gas')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Electric Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Electric Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Freestanding Electric</li>
-                            <li>Slide-In Electric</li>
-                            <li>Electric Range Oven</li>
-                            <li>Double Electric Oven</li>
-                            <li>Convection Electric</li>
-                            <li>Commercial Electric</li>
-                            <li>Professional Electric</li>
-                            <li>Electric Wall Oven</li>
-                            <li>Radiant Electric Oven</li>
-                        </ul>
-                        <div id="expandable-content-electric" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-electric" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Electric Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool electric oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their electric oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers electric oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-gas" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-gas" onclick="toggleExpand('gas')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Electric Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Electric Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Freestanding Electric</li>
+ <li>Slide-In Electric</li>
+ <li>Electric Range Oven</li>
+ <li>Double Electric Oven</li>
+ <li>Convection Electric</li>
+ <li>Commercial Electric</li>
+ <li>Professional Electric</li>
+ <li>Electric Wall Oven</li>
+ <li>Radiant Electric Oven</li>
+ </ul>
+ <div id="expandable-content-electric" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-electric" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Electric Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool electric oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their electric oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers electric oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Electric Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool electric oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Electric Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool electric oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Electric Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool electric oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Electric Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool electric oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Electric Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool electric oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool electric oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Electric Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool electric oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool electric oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Electric Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool electric oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Electric Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool electric oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Electric Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest electric oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most electric oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable electric oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Electric Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest electric oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most electric oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable electric oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-electric" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-electric" onclick="toggleExpand('electric')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Convection Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Convection Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>True Convection</li>
-                            <li>Fan Convection</li>
-                            <li>European Convection</li>
-                            <li>Dual Convection</li>
-                            <li>Convection Wall Oven</li>
-                            <li>Convection Range</li>
-                            <li>Air Fry Convection</li>
-                            <li>Steam Convection</li>
-                            <li>Professional Convection</li>
-                        </ul>
-                        <div id="expandable-content-convection" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-convection" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Convection Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool convection oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their convection oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers convection oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-electric" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-electric" onclick="toggleExpand('electric')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Convection Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Convection Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>True Convection</li>
+ <li>Fan Convection</li>
+ <li>European Convection</li>
+ <li>Dual Convection</li>
+ <li>Convection Wall Oven</li>
+ <li>Convection Range</li>
+ <li>Air Fry Convection</li>
+ <li>Steam Convection</li>
+ <li>Professional Convection</li>
+ </ul>
+ <div id="expandable-content-convection" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-convection" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Convection Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool convection oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their convection oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers convection oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Convection Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool convection oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Convection Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool convection oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Convection Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool convection oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Convection Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool convection oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Convection Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool convection oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool convection oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Convection Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool convection oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool convection oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Convection Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool convection oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Convection Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool convection oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Convection Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest convection oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most convection oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable convection oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Convection Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest convection oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most convection oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable convection oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-convection" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-convection" onclick="toggleExpand('convection')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Double Wall Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Double Wall Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Electric Double Wall</li>
-                            <li>Gas Double Wall</li>
-                            <li>Convection Double Wall</li>
-                            <li>Smart Double Wall</li>
-                            <li>French Door Double Wall</li>
-                            <li>Side-Opening Double Wall</li>
-                            <li>Combination Double Wall</li>
-                            <li>Premium Double Wall</li>
-                            <li>Professional Double Wall</li>
-                        </ul>
-                        <div id="expandable-content-doublewall" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-doublewall" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Double Wall Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool double wall oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their double wall oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers double wall oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-convection" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-convection" onclick="toggleExpand('convection')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Double Wall Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Double Wall Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Electric Double Wall</li>
+ <li>Gas Double Wall</li>
+ <li>Convection Double Wall</li>
+ <li>Smart Double Wall</li>
+ <li>French Door Double Wall</li>
+ <li>Side-Opening Double Wall</li>
+ <li>Combination Double Wall</li>
+ <li>Premium Double Wall</li>
+ <li>Professional Double Wall</li>
+ </ul>
+ <div id="expandable-content-doublewall" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-doublewall" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Double Wall Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool double wall oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their double wall oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers double wall oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Double Wall Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool double wall oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Double Wall Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool double wall oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Double Wall Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool double wall oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Double Wall Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool double wall oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Double Wall Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool double wall oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool double wall oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Double Wall Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool double wall oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool double wall oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Double Wall Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool double wall oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Double Wall Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool double wall oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Double Wall Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest double wall oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most double wall oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable double wall oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Double Wall Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest double wall oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most double wall oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable double wall oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-doublewall" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-doublewall" onclick="toggleExpand('doublewall')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Single Wall Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Single Wall Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Electric Single Wall</li>
-                            <li>Gas Single Wall</li>
-                            <li>Convection Single Wall</li>
-                            <li>Smart Single Wall</li>
-                            <li>Microwave Combo</li>
-                            <li>Steam Single Wall</li>
-                            <li>Speed Oven</li>
-                            <li>Professional Single Wall</li>
-                            <li>Budget Single Wall</li>
-                        </ul>
-                        <div id="expandable-content-singlewall" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-singlewall" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Single Wall Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool single wall oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their single wall oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers single wall oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-doublewall" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-doublewall" onclick="toggleExpand('doublewall')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Single Wall Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Single Wall Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Electric Single Wall</li>
+ <li>Gas Single Wall</li>
+ <li>Convection Single Wall</li>
+ <li>Smart Single Wall</li>
+ <li>Microwave Combo</li>
+ <li>Steam Single Wall</li>
+ <li>Speed Oven</li>
+ <li>Professional Single Wall</li>
+ <li>Budget Single Wall</li>
+ </ul>
+ <div id="expandable-content-singlewall" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-singlewall" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Single Wall Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool single wall oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their single wall oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers single wall oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Single Wall Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool single wall oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Single Wall Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool single wall oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Single Wall Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool single wall oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Single Wall Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool single wall oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Single Wall Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool single wall oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool single wall oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Single Wall Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool single wall oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool single wall oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Single Wall Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool single wall oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Single Wall Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool single wall oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Single Wall Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest single wall oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most single wall oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable single wall oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Single Wall Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest single wall oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most single wall oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable single wall oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-singlewall" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-singlewall" onclick="toggleExpand('singlewall')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Range Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Range Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Gas Range Oven</li>
-                            <li>Electric Range Oven</li>
-                            <li>Dual Fuel Range</li>
-                            <li>Induction Range</li>
-                            <li>Slide-In Range</li>
-                            <li>Freestanding Range</li>
-                            <li>Professional Range</li>
-                            <li>Commercial Range</li>
-                            <li>Smart Range Oven</li>
-                        </ul>
-                        <div id="expandable-content-range" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-range" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Range Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool range oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their range oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers range oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-singlewall" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-singlewall" onclick="toggleExpand('singlewall')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Range Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Range Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Gas Range Oven</li>
+ <li>Electric Range Oven</li>
+ <li>Dual Fuel Range</li>
+ <li>Induction Range</li>
+ <li>Slide-In Range</li>
+ <li>Freestanding Range</li>
+ <li>Professional Range</li>
+ <li>Commercial Range</li>
+ <li>Smart Range Oven</li>
+ </ul>
+ <div id="expandable-content-range" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-range" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Range Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool range oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their range oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers range oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Range Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool range oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Range Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool range oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Range Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool range oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Range Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool range oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Range Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool range oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool range oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Range Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool range oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool range oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Range Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool range oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Range Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool range oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Range Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest range oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most range oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable range oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Range Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest range oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most range oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable range oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-range" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-range" onclick="toggleExpand('range')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Steam Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Steam Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Pure Steam Oven</li>
-                            <li>Convection Steam</li>
-                            <li>Combination Steam</li>
-                            <li>Built-In Steam</li>
-                            <li>Countertop Steam</li>
-                            <li>Professional Steam</li>
-                            <li>Speed Steam Oven</li>
-                            <li>Steam Wall Oven</li>
-                            <li>Steam Assist Oven</li>
-                        </ul>
-                        <div id="expandable-content-steam" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-steam" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Steam Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool steam oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their steam oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers steam oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-range" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-range" onclick="toggleExpand('range')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Steam Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Steam Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Pure Steam Oven</li>
+ <li>Convection Steam</li>
+ <li>Combination Steam</li>
+ <li>Built-In Steam</li>
+ <li>Countertop Steam</li>
+ <li>Professional Steam</li>
+ <li>Speed Steam Oven</li>
+ <li>Steam Wall Oven</li>
+ <li>Steam Assist Oven</li>
+ </ul>
+ <div id="expandable-content-steam" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-steam" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Steam Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool steam oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their steam oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers steam oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Steam Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool steam oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Steam Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool steam oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Steam Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool steam oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Steam Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool steam oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Steam Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool steam oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool steam oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Steam Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool steam oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool steam oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Steam Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool steam oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Steam Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool steam oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Steam Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest steam oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most steam oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable steam oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Steam Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest steam oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most steam oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable steam oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-steam" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-steam" onclick="toggleExpand('steam')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Commercial Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Commercial Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Convection Commercial</li>
-                            <li>Deck Oven</li>
-                            <li>Conveyor Oven</li>
-                            <li>Combination Commercial</li>
-                            <li>Bakery Oven</li>
-                            <li>Pizza Oven</li>
-                            <li>Rotisserie Oven</li>
-                            <li>Combi Oven</li>
-                            <li>Restaurant Oven</li>
-                        </ul>
-                        <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Commercial Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool commercial oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers commercial oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-steam" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-steam" onclick="toggleExpand('steam')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Commercial Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Commercial Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Convection Commercial</li>
+ <li>Deck Oven</li>
+ <li>Conveyor Oven</li>
+ <li>Combination Commercial</li>
+ <li>Bakery Oven</li>
+ <li>Pizza Oven</li>
+ <li>Rotisserie Oven</li>
+ <li>Combi Oven</li>
+ <li>Restaurant Oven</li>
+ </ul>
+ <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Commercial Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool commercial oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers commercial oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Commercial Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool commercial oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Commercial Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool commercial oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Commercial Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool commercial oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Commercial Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool commercial oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool commercial oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool commercial oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool commercial oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool commercial oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Commercial Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool commercial oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Commercial Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool commercial oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Commercial Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest commercial oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable commercial oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Commercial Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest commercial oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable commercial oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Smart Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
-                    <h3>Whirlpool Smart Oven Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>WiFi-Connected Oven</li>
-                            <li>Smart Wall Oven</li>
-                            <li>Smart Range Oven</li>
-                            <li>Voice-Controlled Oven</li>
-                            <li>App-Controlled Oven</li>
-                            <li>Smart Diagnosis Oven</li>
-                            <li>Precision Cooking</li>
-                            <li>Camera-Equipped</li>
-                            <li>Connected Oven</li>
-                        </ul>
-                        <div id="expandable-content-smart" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-smart" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Smart Oven Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Whirlpool smart oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their smart oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers smart oven options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Whirlpool Smart Oven repair" loading="lazy" ></div>
+ <h3>Whirlpool Smart Oven Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>WiFi-Connected Oven</li>
+ <li>Smart Wall Oven</li>
+ <li>Smart Range Oven</li>
+ <li>Voice-Controlled Oven</li>
+ <li>App-Controlled Oven</li>
+ <li>Smart Diagnosis Oven</li>
+ <li>Precision Cooking</li>
+ <li>Camera-Equipped</li>
+ <li>Connected Oven</li>
+ </ul>
+ <div id="expandable-content-smart" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-smart" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Whirlpool Smart Oven Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Whirlpool smart oven models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These ovens feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Whirlpool incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their smart oven lineup from competitors. The quality materials and thoughtful engineering in Whirlpool appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Whirlpool offers smart oven options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Smart Oven Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool smart oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Whirlpool Smart Oven Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Whirlpool smart oven issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Whirlpool-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Smart Oven Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool smart oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Whirlpool Smart Oven Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Whirlpool smart oven repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Whirlpool appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Whirlpool-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Smart Oven Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool smart oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool smart oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Smart Oven Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Whirlpool smart oven repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Whirlpool smart oven units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Smart Oven Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Whirlpool smart oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Whirlpool Smart Oven Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Whirlpool smart oven with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Whirlpool provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Smart Oven Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest smart oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most smart oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable smart oven service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Whirlpool Smart Oven Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Whirlpool-certified technicians</strong> receive ongoing factory training on the latest smart oven models and repair techniques. We use only genuine Whirlpool replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Whirlpool appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most smart oven repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Whirlpool appliance repair throughout Manhattan. Contact us today for fast, reliable smart oven service.</p>
 
-                            </div>
-                            <div id="expandable-fade-smart" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-smart" onclick="toggleExpand('smart')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-            </div>
+ </div>
+ <div id="expandable-fade-smart" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-smart" onclick="toggleExpand('smart')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ </div>
 
  </div>
  </section>

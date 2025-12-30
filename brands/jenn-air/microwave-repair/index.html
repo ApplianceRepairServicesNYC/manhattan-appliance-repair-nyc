@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1278,386 +1285,386 @@
  <section class="alt">
  <div class="container">
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
-             <div class="services-grid">
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Countertop Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Countertop Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Countertop</li>
-                            <li>Compact Countertop</li>
-                            <li>Mid-Size Countertop</li>
-                            <li>Large Countertop</li>
-                            <li>Inverter Countertop</li>
-                            <li>Convection Countertop</li>
-                            <li>Smart Countertop</li>
-                            <li>Stainless Countertop</li>
-                            <li>Budget Countertop</li>
-                        </ul>
-                        <div id="expandable-content-countertop" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-countertop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Countertop Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air countertop microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their countertop microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers countertop microwave options to match every household need and budget throughout Manhattan.</p>
+ <div class="services-grid">
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Countertop Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Countertop Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Countertop</li>
+ <li>Compact Countertop</li>
+ <li>Mid-Size Countertop</li>
+ <li>Large Countertop</li>
+ <li>Inverter Countertop</li>
+ <li>Convection Countertop</li>
+ <li>Smart Countertop</li>
+ <li>Stainless Countertop</li>
+ <li>Budget Countertop</li>
+ </ul>
+ <div id="expandable-content-countertop" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-countertop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Countertop Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air countertop microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their countertop microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers countertop microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Countertop Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air countertop microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Countertop Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air countertop microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Countertop Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air countertop microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Countertop Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air countertop microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Countertop Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air countertop microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air countertop microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Countertop Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air countertop microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air countertop microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Countertop Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air countertop microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Countertop Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air countertop microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Countertop Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest countertop microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most countertop microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable countertop microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Countertop Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest countertop microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most countertop microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable countertop microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-countertop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-countertop" onclick="toggleExpand('countertop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Over-the-Range Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Over-the-Range Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard OTR</li>
-                            <li>Low-Profile OTR</li>
-                            <li>Convection OTR</li>
-                            <li>Smart OTR</li>
-                            <li>High-CFM OTR</li>
-                            <li>Sensor Cooking OTR</li>
-                            <li>Stainless OTR</li>
-                            <li>Fingerprint-Resistant OTR</li>
-                            <li>Premium OTR</li>
-                        </ul>
-                        <div id="expandable-content-otr" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-otr" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Over-the-Range Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air over-the-range microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their over-the-range microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers over-the-range microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-countertop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-countertop" onclick="toggleExpand('countertop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Over-the-Range Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Over-the-Range Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard OTR</li>
+ <li>Low-Profile OTR</li>
+ <li>Convection OTR</li>
+ <li>Smart OTR</li>
+ <li>High-CFM OTR</li>
+ <li>Sensor Cooking OTR</li>
+ <li>Stainless OTR</li>
+ <li>Fingerprint-Resistant OTR</li>
+ <li>Premium OTR</li>
+ </ul>
+ <div id="expandable-content-otr" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-otr" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Over-the-Range Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air over-the-range microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their over-the-range microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers over-the-range microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Over-the-Range Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air over-the-range microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Over-the-Range Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air over-the-range microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Over-the-Range Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air over-the-range microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Over-the-Range Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air over-the-range microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Over-the-Range Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air over-the-range microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air over-the-range microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Over-the-Range Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air over-the-range microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air over-the-range microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Over-the-Range Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air over-the-range microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Over-the-Range Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air over-the-range microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Over-the-Range Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest over-the-range microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most over-the-range microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable over-the-range microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Over-the-Range Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest over-the-range microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most over-the-range microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable over-the-range microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-otr" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-otr" onclick="toggleExpand('otr')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Built-In Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Built-In Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Built-In</li>
-                            <li>Trim Kit Built-In</li>
-                            <li>Drawer Built-In</li>
-                            <li>Wall Oven Combo</li>
-                            <li>Convection Built-In</li>
-                            <li>Premium Built-In</li>
-                            <li>Stainless Built-In</li>
-                            <li>Panel-Ready Built-In</li>
-                            <li>Speed Oven Built-In</li>
-                        </ul>
-                        <div id="expandable-content-builtin" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-builtin" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Built-In Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air built-in microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their built-in microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers built-in microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-otr" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-otr" onclick="toggleExpand('otr')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Built-In Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Built-In Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Built-In</li>
+ <li>Trim Kit Built-In</li>
+ <li>Drawer Built-In</li>
+ <li>Wall Oven Combo</li>
+ <li>Convection Built-In</li>
+ <li>Premium Built-In</li>
+ <li>Stainless Built-In</li>
+ <li>Panel-Ready Built-In</li>
+ <li>Speed Oven Built-In</li>
+ </ul>
+ <div id="expandable-content-builtin" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-builtin" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Built-In Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air built-in microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their built-in microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers built-in microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Built-In Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air built-in microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Built-In Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air built-in microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Built-In Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air built-in microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Built-In Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air built-in microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Built-In Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air built-in microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air built-in microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Built-In Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air built-in microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air built-in microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Built-In Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air built-in microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Built-In Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air built-in microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Built-In Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest built-in microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most built-in microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable built-in microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Built-In Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest built-in microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most built-in microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable built-in microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-builtin" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-builtin" onclick="toggleExpand('builtin')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Drawer Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Drawer Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Drawer</li>
-                            <li>Under-Counter Drawer</li>
-                            <li>Island Drawer</li>
-                            <li>Sharp Drawer</li>
-                            <li>Convection Drawer</li>
-                            <li>24-Inch Drawer</li>
-                            <li>30-Inch Drawer</li>
-                            <li>ADA-Compliant Drawer</li>
-                            <li>Premium Drawer</li>
-                        </ul>
-                        <div id="expandable-content-drawer" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-drawer" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Drawer Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air drawer microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their drawer microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers drawer microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-builtin" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-builtin" onclick="toggleExpand('builtin')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Drawer Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Drawer Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Drawer</li>
+ <li>Under-Counter Drawer</li>
+ <li>Island Drawer</li>
+ <li>Sharp Drawer</li>
+ <li>Convection Drawer</li>
+ <li>24-Inch Drawer</li>
+ <li>30-Inch Drawer</li>
+ <li>ADA-Compliant Drawer</li>
+ <li>Premium Drawer</li>
+ </ul>
+ <div id="expandable-content-drawer" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-drawer" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Drawer Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air drawer microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their drawer microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers drawer microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Drawer Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air drawer microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Drawer Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air drawer microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Drawer Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air drawer microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Drawer Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air drawer microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Drawer Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air drawer microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air drawer microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Drawer Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air drawer microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air drawer microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Drawer Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air drawer microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Drawer Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air drawer microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Drawer Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest drawer microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most drawer microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable drawer microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Drawer Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest drawer microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most drawer microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable drawer microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-drawer" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-drawer" onclick="toggleExpand('drawer')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Convection Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Convection Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Countertop Convection</li>
-                            <li>OTR Convection</li>
-                            <li>Built-In Convection</li>
-                            <li>Speed Cook Convection</li>
-                            <li>Air Fry Convection</li>
-                            <li>Combination Convection</li>
-                            <li>Professional Convection</li>
-                            <li>Smart Convection</li>
-                            <li>Premium Convection</li>
-                        </ul>
-                        <div id="expandable-content-convection" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-convection" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Convection Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air convection microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their convection microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers convection microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-drawer" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-drawer" onclick="toggleExpand('drawer')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Convection Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Convection Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Countertop Convection</li>
+ <li>OTR Convection</li>
+ <li>Built-In Convection</li>
+ <li>Speed Cook Convection</li>
+ <li>Air Fry Convection</li>
+ <li>Combination Convection</li>
+ <li>Professional Convection</li>
+ <li>Smart Convection</li>
+ <li>Premium Convection</li>
+ </ul>
+ <div id="expandable-content-convection" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-convection" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Convection Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air convection microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their convection microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers convection microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Convection Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air convection microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Convection Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air convection microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Convection Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air convection microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Convection Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air convection microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Convection Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air convection microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air convection microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Convection Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air convection microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air convection microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Convection Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air convection microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Convection Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air convection microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Convection Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest convection microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most convection microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable convection microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Convection Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest convection microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most convection microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable convection microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-convection" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-convection" onclick="toggleExpand('convection')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Commercial Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Commercial Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Heavy-Duty Commercial</li>
-                            <li>Medium-Duty Commercial</li>
-                            <li>Light-Duty Commercial</li>
-                            <li>High-Power Commercial</li>
-                            <li>Stackable Commercial</li>
-                            <li>Programmable Commercial</li>
-                            <li>Restaurant Microwave</li>
-                            <li>Convenience Store</li>
-                            <li>Food Service</li>
-                        </ul>
-                        <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Commercial Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air commercial microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers commercial microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-convection" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-convection" onclick="toggleExpand('convection')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Commercial Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Commercial Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Heavy-Duty Commercial</li>
+ <li>Medium-Duty Commercial</li>
+ <li>Light-Duty Commercial</li>
+ <li>High-Power Commercial</li>
+ <li>Stackable Commercial</li>
+ <li>Programmable Commercial</li>
+ <li>Restaurant Microwave</li>
+ <li>Convenience Store</li>
+ <li>Food Service</li>
+ </ul>
+ <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Commercial Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air commercial microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers commercial microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Commercial Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air commercial microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Commercial Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air commercial microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Commercial Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air commercial microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Commercial Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air commercial microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air commercial microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air commercial microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air commercial microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air commercial microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Commercial Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air commercial microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Commercial Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air commercial microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Commercial Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest commercial microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable commercial microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Commercial Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest commercial microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable commercial microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Compact Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Compact Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Small Compact</li>
-                            <li>Dorm Microwave</li>
-                            <li>Office Microwave</li>
-                            <li>RV Microwave</li>
-                            <li>Low-Wattage Compact</li>
-                            <li>Travel Microwave</li>
-                            <li>Space-Saving Compact</li>
-                            <li>Mini Microwave</li>
-                            <li>Personal Microwave</li>
-                        </ul>
-                        <div id="expandable-content-compact" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-compact" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Compact Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air compact microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their compact microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers compact microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Compact Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Compact Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Small Compact</li>
+ <li>Dorm Microwave</li>
+ <li>Office Microwave</li>
+ <li>RV Microwave</li>
+ <li>Low-Wattage Compact</li>
+ <li>Travel Microwave</li>
+ <li>Space-Saving Compact</li>
+ <li>Mini Microwave</li>
+ <li>Personal Microwave</li>
+ </ul>
+ <div id="expandable-content-compact" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-compact" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Compact Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air compact microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their compact microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers compact microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Compact Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air compact microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Compact Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air compact microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Compact Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air compact microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Compact Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air compact microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Compact Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air compact microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air compact microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Compact Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air compact microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air compact microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Compact Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air compact microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Compact Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air compact microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Compact Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest compact microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most compact microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable compact microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Compact Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest compact microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most compact microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable compact microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-compact" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-compact" onclick="toggleExpand('compact')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Smart Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Smart Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>WiFi-Connected</li>
-                            <li>Alexa Microwave</li>
-                            <li>Google Home</li>
-                            <li>Smart Diagnosis</li>
-                            <li>App-Controlled</li>
-                            <li>Voice-Controlled</li>
-                            <li>Scan-to-Cook</li>
-                            <li>Smart Sensor</li>
-                            <li>Connected Microwave</li>
-                        </ul>
-                        <div id="expandable-content-smart" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-smart" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Smart Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air smart microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their smart microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers smart microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-compact" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-compact" onclick="toggleExpand('compact')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Smart Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Smart Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>WiFi-Connected</li>
+ <li>Alexa Microwave</li>
+ <li>Google Home</li>
+ <li>Smart Diagnosis</li>
+ <li>App-Controlled</li>
+ <li>Voice-Controlled</li>
+ <li>Scan-to-Cook</li>
+ <li>Smart Sensor</li>
+ <li>Connected Microwave</li>
+ </ul>
+ <div id="expandable-content-smart" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-smart" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Smart Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air smart microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their smart microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers smart microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Smart Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air smart microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Smart Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air smart microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Smart Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air smart microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Smart Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air smart microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Smart Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air smart microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air smart microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Smart Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air smart microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air smart microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Smart Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air smart microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Smart Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air smart microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Smart Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest smart microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most smart microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable smart microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Smart Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest smart microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most smart microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable smart microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-smart" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-smart" onclick="toggleExpand('smart')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Combination Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
-                    <h3>Jenn-Air Combination Microwave Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Microwave-Convection</li>
-                            <li>Microwave-Grill</li>
-                            <li>Speed Oven Combo</li>
-                            <li>Wall Oven Combo</li>
-                            <li>Air Fryer Combo</li>
-                            <li>Toaster Combo</li>
-                            <li>Steam-Microwave</li>
-                            <li>Multi-Function</li>
-                            <li>All-In-One</li>
-                        </ul>
-                        <div id="expandable-content-combination" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-combination" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Combination Microwave Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Jenn-Air combination microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their combination microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers combination microwave options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-smart" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-smart" onclick="toggleExpand('smart')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Jenn-Air Combination Microwave repair" loading="lazy" ></div>
+ <h3>Jenn-Air Combination Microwave Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Microwave-Convection</li>
+ <li>Microwave-Grill</li>
+ <li>Speed Oven Combo</li>
+ <li>Wall Oven Combo</li>
+ <li>Air Fryer Combo</li>
+ <li>Toaster Combo</li>
+ <li>Steam-Microwave</li>
+ <li>Multi-Function</li>
+ <li>All-In-One</li>
+ </ul>
+ <div id="expandable-content-combination" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-combination" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Jenn-Air Combination Microwave Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Jenn-Air combination microwave models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These microwaves feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Jenn-Air incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their combination microwave lineup from competitors. The quality materials and thoughtful engineering in Jenn-Air appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Jenn-Air offers combination microwave options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Combination Microwave Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air combination microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Jenn-Air Combination Microwave Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Jenn-Air combination microwave issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Jenn-Air-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Combination Microwave Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air combination microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Jenn-Air Combination Microwave Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Jenn-Air combination microwave repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Jenn-Air appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Jenn-Air-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Combination Microwave Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air combination microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air combination microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Combination Microwave Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Jenn-Air combination microwave repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Jenn-Air combination microwave units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Combination Microwave Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air combination microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Jenn-Air Combination Microwave Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Jenn-Air combination microwave with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Jenn-Air provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Combination Microwave Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest combination microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most combination microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable combination microwave service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Jenn-Air Combination Microwave Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Jenn-Air-certified technicians</strong> receive ongoing factory training on the latest combination microwave models and repair techniques. We use only genuine Jenn-Air replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Jenn-Air appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most combination microwave repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Jenn-Air appliance repair throughout Manhattan. Contact us today for fast, reliable combination microwave service.</p>
 
-                            </div>
-                            <div id="expandable-fade-combination" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-combination" onclick="toggleExpand('combination')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-            </div>
+ </div>
+ <div id="expandable-fade-combination" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-combination" onclick="toggleExpand('combination')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ </div>
 
  </div>
  </section>

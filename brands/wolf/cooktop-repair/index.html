@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1278,386 +1285,386 @@
  <section class="alt">
  <div class="container">
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
-                                     <div class="services-grid">
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Sealed Burner Rangetop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Sealed Burner Rangetop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>SRT366 - 36" 6 Burners</li>
-                            <li>SRT364C - 36" 4 Burners Charbroiler</li>
-                            <li>SRT364G - 36" 4 Burners Griddle</li>
-                            <li>SRT486C - 48" 6 Burners Charbroiler</li>
-                            <li>SRT486G - 48" 6 Burners Griddle</li>
-                            <li>SRT484CG - 48" 4 Burners Charbroiler Griddle</li>
-                            <li>SRT484F - 48" 4 Burners French Top</li>
-                            <li>SRT484W - 48" 4 Burners Wok</li>
-                            <li>SRT484DG - 48" 4 Burners Dual Griddle</li>
-                        </ul>
-                        <div id="expandable-content-rangetop" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-rangetop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Sealed Burner Rangetop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf sealed burner rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ <div class="services-grid">
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Sealed Burner Rangetop repair" loading="lazy" ></div>
+ <h3>Wolf Sealed Burner Rangetop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>SRT366 - 36" 6 Burners</li>
+ <li>SRT364C - 36" 4 Burners Charbroiler</li>
+ <li>SRT364G - 36" 4 Burners Griddle</li>
+ <li>SRT486C - 48" 6 Burners Charbroiler</li>
+ <li>SRT486G - 48" 6 Burners Griddle</li>
+ <li>SRT484CG - 48" 4 Burners Charbroiler Griddle</li>
+ <li>SRT484F - 48" 4 Burners French Top</li>
+ <li>SRT484W - 48" 4 Burners Wok</li>
+ <li>SRT484DG - 48" 4 Burners Dual Griddle</li>
+ </ul>
+ <div id="expandable-content-rangetop" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-rangetop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Sealed Burner Rangetop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf sealed burner rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Sealed Burner Rangetop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf sealed burner rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Sealed Burner Rangetop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf sealed burner rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Sealed Burner Rangetop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf sealed burner rangetop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Sealed Burner Rangetop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf sealed burner rangetop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Sealed Burner Rangetop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf sealed burner rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Sealed Burner Rangetop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf sealed burner rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Sealed Burner Rangetop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Sealed Burner Rangetop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Sealed Burner Rangetop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf sealed burner rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Sealed Burner Rangetop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf sealed burner rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-rangetop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-rangetop" onclick="toggleExpand('rangetop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Induction Cooktop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Induction Cooktop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>CI304T/S - 30" Transitional Induction</li>
-                            <li>CI365T/S - 36" Transitional Induction</li>
-                            <li>CI304C/B - 30" Contemporary Induction</li>
-                            <li>CI365C/B - 36" Contemporary Induction</li>
-                            <li>5 Induction Zones on 36" Models</li>
-                            <li>4 Induction Zones on 30" Models</li>
-                            <li>Bridge Element Feature</li>
-                            <li>Touch Control Interface</li>
-                            <li>Boost Power Function</li>
-                        </ul>
-                        <div id="expandable-content-induction-cooktop" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-induction-cooktop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Induction Cooktop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf induction cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-rangetop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-rangetop" onclick="toggleExpand('rangetop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Induction Cooktop repair" loading="lazy" ></div>
+ <h3>Wolf Induction Cooktop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>CI304T/S - 30" Transitional Induction</li>
+ <li>CI365T/S - 36" Transitional Induction</li>
+ <li>CI304C/B - 30" Contemporary Induction</li>
+ <li>CI365C/B - 36" Contemporary Induction</li>
+ <li>5 Induction Zones on 36" Models</li>
+ <li>4 Induction Zones on 30" Models</li>
+ <li>Bridge Element Feature</li>
+ <li>Touch Control Interface</li>
+ <li>Boost Power Function</li>
+ </ul>
+ <div id="expandable-content-induction-cooktop" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-induction-cooktop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Induction Cooktop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf induction cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Induction Cooktop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf induction cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Induction Cooktop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf induction cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Induction Cooktop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf induction cooktop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Induction Cooktop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf induction cooktop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Induction Cooktop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf induction cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Induction Cooktop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf induction cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Induction Cooktop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Induction Cooktop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Induction Cooktop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf induction cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Induction Cooktop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf induction cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-induction-cooktop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-induction-cooktop" onclick="toggleExpand('induction-cooktop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Gas Cooktop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Gas Cooktop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>CG304T/S - 30" Transitional Gas</li>
-                            <li>CG365T/S - 36" Transitional Gas</li>
-                            <li>CG304P/S - 30" Professional Gas</li>
-                            <li>CG365P/S - 36" Professional Gas</li>
-                            <li>Dual-Stacked Burners</li>
-                            <li>Continuous Grates</li>
-                            <li>15,000 BTU Power Burners</li>
-                            <li>9,200 BTU Simmer Burners</li>
-                            <li>Automatic Reignition</li>
-                        </ul>
-                        <div id="expandable-content-gas-cooktop" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-gas-cooktop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Gas Cooktop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf gas cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-induction-cooktop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-induction-cooktop" onclick="toggleExpand('induction-cooktop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Gas Cooktop repair" loading="lazy" ></div>
+ <h3>Wolf Gas Cooktop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>CG304T/S - 30" Transitional Gas</li>
+ <li>CG365T/S - 36" Transitional Gas</li>
+ <li>CG304P/S - 30" Professional Gas</li>
+ <li>CG365P/S - 36" Professional Gas</li>
+ <li>Dual-Stacked Burners</li>
+ <li>Continuous Grates</li>
+ <li>15,000 BTU Power Burners</li>
+ <li>9,200 BTU Simmer Burners</li>
+ <li>Automatic Reignition</li>
+ </ul>
+ <div id="expandable-content-gas-cooktop" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-gas-cooktop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Gas Cooktop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf gas cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Gas Cooktop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf gas cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Gas Cooktop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf gas cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Gas Cooktop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf gas cooktop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Gas Cooktop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf gas cooktop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Gas Cooktop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf gas cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Gas Cooktop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf gas cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Gas Cooktop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Gas Cooktop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Gas Cooktop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf gas cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Gas Cooktop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf gas cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-gas-cooktop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-gas-cooktop" onclick="toggleExpand('gas-cooktop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Electric Cooktop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Electric Cooktop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>CE304T/S - 30" Transitional Electric</li>
-                            <li>CE365T/S - 36" Transitional Electric</li>
-                            <li>CE304C/B - 30" Contemporary Electric</li>
-                            <li>CE365C/B - 36" Contemporary Electric</li>
-                            <li>Smoothtop Radiant Surface</li>
-                            <li>Bridge Element</li>
-                            <li>Melt and Hold Settings</li>
-                            <li>Hot Surface Indicators</li>
-                            <li>Touch Controls</li>
-                        </ul>
-                        <div id="expandable-content-electric-cooktop" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-electric-cooktop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Electric Cooktop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf electric cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-gas-cooktop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-gas-cooktop" onclick="toggleExpand('gas-cooktop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Electric Cooktop repair" loading="lazy" ></div>
+ <h3>Wolf Electric Cooktop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>CE304T/S - 30" Transitional Electric</li>
+ <li>CE365T/S - 36" Transitional Electric</li>
+ <li>CE304C/B - 30" Contemporary Electric</li>
+ <li>CE365C/B - 36" Contemporary Electric</li>
+ <li>Smoothtop Radiant Surface</li>
+ <li>Bridge Element</li>
+ <li>Melt and Hold Settings</li>
+ <li>Hot Surface Indicators</li>
+ <li>Touch Controls</li>
+ </ul>
+ <div id="expandable-content-electric-cooktop" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-electric-cooktop" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Electric Cooktop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf electric cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Electric Cooktop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf electric cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Electric Cooktop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf electric cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Electric Cooktop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf electric cooktop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Electric Cooktop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf electric cooktop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Electric Cooktop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf electric cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Electric Cooktop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf electric cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Electric Cooktop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Electric Cooktop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Electric Cooktop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf electric cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Electric Cooktop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf electric cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-electric-cooktop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-electric-cooktop" onclick="toggleExpand('electric-cooktop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Module Cooktop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Module Cooktop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>IM15/S - 15" Induction Module</li>
-                            <li>TM24 - 24" Teppanyaki Module</li>
-                            <li>GM15 - 15" Gas Module</li>
-                            <li>BBQ Module Options</li>
-                            <li>Steamer Module</li>
-                            <li>Fryer Module</li>
-                            <li>Wok Ring Module</li>
-                            <li>Griddle Module</li>
-                            <li>Mix and Match Configurations</li>
-                        </ul>
-                        <div id="expandable-content-module" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-module" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Module Cooktop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf module cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-electric-cooktop" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-electric-cooktop" onclick="toggleExpand('electric-cooktop')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Module Cooktop repair" loading="lazy" ></div>
+ <h3>Wolf Module Cooktop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>IM15/S - 15" Induction Module</li>
+ <li>TM24 - 24" Teppanyaki Module</li>
+ <li>GM15 - 15" Gas Module</li>
+ <li>BBQ Module Options</li>
+ <li>Steamer Module</li>
+ <li>Fryer Module</li>
+ <li>Wok Ring Module</li>
+ <li>Griddle Module</li>
+ <li>Mix and Match Configurations</li>
+ </ul>
+ <div id="expandable-content-module" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-module" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Module Cooktop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf module cooktop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Module Cooktop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf module cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Module Cooktop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf module cooktop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Module Cooktop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf module cooktop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Module Cooktop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf module cooktop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Module Cooktop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf module cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Module Cooktop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf module cooktop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Module Cooktop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Module Cooktop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Module Cooktop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf module cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Module Cooktop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf module cooktop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-module" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-module" onclick="toggleExpand('module')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Wok Burner Rangetop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Wok Burner Rangetop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>SRT484W - 48" with Wok Burner</li>
-                            <li>Dedicated 20,000 BTU Wok Burner</li>
-                            <li>Round-Bottom Wok Support</li>
-                            <li>High Heat Stir Fry Capability</li>
-                            <li>4 Standard Sealed Burners</li>
-                            <li>Continuous Cast Iron Grates</li>
-                            <li>Stainless Steel Construction</li>
-                            <li>Commercial-Style Design</li>
-                            <li>Island or Wall Installation</li>
-                        </ul>
-                        <div id="expandable-content-wok" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-wok" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Wok Burner Rangetop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf wok burner rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-module" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-module" onclick="toggleExpand('module')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Wok Burner Rangetop repair" loading="lazy" ></div>
+ <h3>Wolf Wok Burner Rangetop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>SRT484W - 48" with Wok Burner</li>
+ <li>Dedicated 20,000 BTU Wok Burner</li>
+ <li>Round-Bottom Wok Support</li>
+ <li>High Heat Stir Fry Capability</li>
+ <li>4 Standard Sealed Burners</li>
+ <li>Continuous Cast Iron Grates</li>
+ <li>Stainless Steel Construction</li>
+ <li>Commercial-Style Design</li>
+ <li>Island or Wall Installation</li>
+ </ul>
+ <div id="expandable-content-wok" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-wok" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Wok Burner Rangetop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf wok burner rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Wok Burner Rangetop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf wok burner rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Wok Burner Rangetop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf wok burner rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Wok Burner Rangetop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf wok burner rangetop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Wok Burner Rangetop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf wok burner rangetop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Wok Burner Rangetop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf wok burner rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Wok Burner Rangetop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf wok burner rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Wok Burner Rangetop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Wok Burner Rangetop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Wok Burner Rangetop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf wok burner rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Wok Burner Rangetop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf wok burner rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-wok" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-wok" onclick="toggleExpand('wok')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Charbroiler Rangetop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Charbroiler Rangetop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>SRT364C - 36" with Charbroiler</li>
-                            <li>SRT486C - 48" with Charbroiler</li>
-                            <li>SRT484CG - 48" Charbroiler and Griddle</li>
-                            <li>Infrared Charbroiler Technology</li>
-                            <li>Lava Rock Cooking Surface</li>
-                            <li>Adjustable Grate Height</li>
-                            <li>Easy-Clean Drip Tray</li>
-                            <li>High Heat Searing</li>
-                            <li>Indoor Grilling Capability</li>
-                        </ul>
-                        <div id="expandable-content-charbroiler" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-charbroiler" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Charbroiler Rangetop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf charbroiler rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-wok" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-wok" onclick="toggleExpand('wok')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Charbroiler Rangetop repair" loading="lazy" ></div>
+ <h3>Wolf Charbroiler Rangetop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>SRT364C - 36" with Charbroiler</li>
+ <li>SRT486C - 48" with Charbroiler</li>
+ <li>SRT484CG - 48" Charbroiler and Griddle</li>
+ <li>Infrared Charbroiler Technology</li>
+ <li>Lava Rock Cooking Surface</li>
+ <li>Adjustable Grate Height</li>
+ <li>Easy-Clean Drip Tray</li>
+ <li>High Heat Searing</li>
+ <li>Indoor Grilling Capability</li>
+ </ul>
+ <div id="expandable-content-charbroiler" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-charbroiler" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Charbroiler Rangetop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf charbroiler rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Charbroiler Rangetop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf charbroiler rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Charbroiler Rangetop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf charbroiler rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Charbroiler Rangetop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf charbroiler rangetop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Charbroiler Rangetop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf charbroiler rangetop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Charbroiler Rangetop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf charbroiler rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Charbroiler Rangetop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf charbroiler rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Charbroiler Rangetop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Charbroiler Rangetop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Charbroiler Rangetop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf charbroiler rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Charbroiler Rangetop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf charbroiler rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-charbroiler" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-charbroiler" onclick="toggleExpand('charbroiler')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Griddle Rangetop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf Griddle Rangetop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>SRT364G - 36" with Griddle</li>
-                            <li>SRT486G - 48" with Griddle</li>
-                            <li>SRT484DG - 48" Dual Griddle</li>
-                            <li>SRT484CG - 48" Charbroiler and Griddle</li>
-                            <li>Infrared Griddle Technology</li>
-                            <li>Chrome-Plated Surface</li>
-                            <li>Even Heat Distribution</li>
-                            <li>Grease Management System</li>
-                            <li>Professional Flat Top Cooking</li>
-                        </ul>
-                        <div id="expandable-content-griddle" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-griddle" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Griddle Rangetop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf griddle rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-charbroiler" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-charbroiler" onclick="toggleExpand('charbroiler')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf Griddle Rangetop repair" loading="lazy" ></div>
+ <h3>Wolf Griddle Rangetop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>SRT364G - 36" with Griddle</li>
+ <li>SRT486G - 48" with Griddle</li>
+ <li>SRT484DG - 48" Dual Griddle</li>
+ <li>SRT484CG - 48" Charbroiler and Griddle</li>
+ <li>Infrared Griddle Technology</li>
+ <li>Chrome-Plated Surface</li>
+ <li>Even Heat Distribution</li>
+ <li>Grease Management System</li>
+ <li>Professional Flat Top Cooking</li>
+ </ul>
+ <div id="expandable-content-griddle" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-griddle" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Griddle Rangetop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf griddle rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Griddle Rangetop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf griddle rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Griddle Rangetop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf griddle rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Griddle Rangetop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf griddle rangetop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Griddle Rangetop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf griddle rangetop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Griddle Rangetop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf griddle rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Griddle Rangetop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf griddle rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Griddle Rangetop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf Griddle Rangetop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Griddle Rangetop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf griddle rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Griddle Rangetop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf griddle rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-griddle" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-griddle" onclick="toggleExpand('griddle')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf French Top Rangetop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
-                    <h3>Wolf French Top Rangetop Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>SRT484F - 48" with French Top</li>
-                            <li>Graduated Heat Zones</li>
-                            <li>Center Hot Zone for Searing</li>
-                            <li>Outer Cool Zone for Holding</li>
-                            <li>Cast Iron Cooking Surface</li>
-                            <li>Multiple Pan Capability</li>
-                            <li>Traditional European Design</li>
-                            <li>Precise Heat Control</li>
-                            <li>Professional Kitchen Style</li>
-                        </ul>
-                        <div id="expandable-content-french-top" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-french-top" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf French Top Rangetop Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf french top rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
+ </div>
+ <div id="expandable-fade-griddle" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-griddle" onclick="toggleExpand('griddle')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Wolf French Top Rangetop repair" loading="lazy" ></div>
+ <h3>Wolf French Top Rangetop Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>SRT484F - 48" with French Top</li>
+ <li>Graduated Heat Zones</li>
+ <li>Center Hot Zone for Searing</li>
+ <li>Outer Cool Zone for Holding</li>
+ <li>Cast Iron Cooking Surface</li>
+ <li>Multiple Pan Capability</li>
+ <li>Traditional European Design</li>
+ <li>Precise Heat Control</li>
+ <li>Professional Kitchen Style</li>
+ </ul>
+ <div id="expandable-content-french-top" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-french-top" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf French Top Rangetop Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide expert <strong>Wolf french top rangetop repair</strong> for homeowners throughout Manhattan. Wolf cooking surfaces are built for performance, featuring high-output burners, precise controls, and commercial-grade construction. When problems occur, you need technicians who understand these sophisticated systems. We service all Wolf cooktop and rangetop configurations including gas, induction, electric, and specialty modules. From ignition problems to temperature control issues, we diagnose and repair Wolf cooking equipment quickly and correctly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf French Top Rangetop Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf french top rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf French Top Rangetop Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Gas models frequently need igniter replacement when burners click but won't light, or light inconsistently. We also repair gas valves that stick or leak, burner caps that sit incorrectly causing uneven flames, and gas supply issues. Induction models may develop error codes, fail to detect cookware, or have zones that won't heat. Electric cooktops can have burned-out elements, failed switches, or cracked glass surfaces. Rangetops with griddles or charbroilers need periodic attention to heating elements, thermostats, and grease management systems. Control knobs and electronic panels occasionally fail on all types. Whatever <strong>Wolf french top rangetop issue</strong> you're experiencing, we have the expertise to fix it.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf French Top Rangetop Units</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf french top rangetop</strong>, we test all cooking zones to verify proper operation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf French Top Rangetop Units</h4>
+ <p style="margin-bottom: 12px;">Wolf cooktop repair begins with thorough diagnosis. For gas units, we check igniter spark, gas valve operation, burner alignment, and flame characteristics. For induction, we test power supplies, induction coils, and control electronics. We verify proper installation since cooktops require specific electrical connections and ventilation. Our trucks carry common Wolf cooktop parts including igniters, switches, knobs, grates, and electronic components. We provide clear estimates before starting work and use genuine Wolf parts for all repairs. After completing service on your <strong>Wolf french top rangetop</strong>, we test all cooking zones to verify proper operation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf French Top Rangetop Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We service <strong>Wolf french top rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf French Top Rangetop Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We service <strong>Wolf french top rangetop units</strong> throughout Manhattan's communities. Wolf cooking equipment appears in serious home kitchens across Upper East Side, Fort George, Roosevelt Island, Manhattan, Tudor City, Murray Hill, Flatiron, Inwood, and surrounding areas. Many installations include rangetops paired with Wolf wall ovens and ventilation, creating complete cooking systems. We understand how these components integrate and can service entire Wolf cooking setups. Whether you have a simple 30-inch cooktop or a 48-inch rangetop with multiple specialty zones, we provide knowledgeable service.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf French Top Rangetop</h4>
-                                <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Caring for Your Wolf French Top Rangetop</h4>
+ <p style="margin-bottom: 12px;">Proper care extends the life of your Wolf cooking equipment. For gas models, keep burner ports clear of food debris and clean burner caps regularly. Lift grates to clean underneath rather than pushing debris into burner areas. For induction, use flat-bottomed magnetic cookware and keep the glass surface clean. Avoid dragging pots across induction surfaces to prevent scratches. Clean griddles after each use following Wolf's recommended procedure. Check that ventilation operates properly since inadequate airflow stresses components. If burners become harder to ignite, flames appear yellow instead of blue, or you notice gas odors, schedule service promptly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf French Top Rangetop Repair You Can Trust</h4>
-                                <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf french top rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf French Top Rangetop Repair You Can Trust</h4>
+ <p style="margin-bottom: 12px;">Wolf cooking equipment represents a commitment to serious home cooking. When your <strong>Wolf french top rangetop</strong> needs repair, you deserve technicians who share that commitment to quality. We specialize in high-end cooking appliances and maintain current knowledge of Wolf products from legacy models to newest releases. Our repairs use genuine parts and follow proper procedures. We work efficiently to minimize your kitchen downtime while doing the job right. For Wolf owners in Manhattan who expect the best from their cooking equipment, we provide service that meets those expectations.</p>
 
-                            </div>
-                            <div id="expandable-fade-french-top" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-french-top" onclick="toggleExpand('french-top')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-            </div>
+ </div>
+ <div id="expandable-fade-french-top" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-french-top" onclick="toggleExpand('french-top')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ </div>
 
 
 

@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1278,386 +1285,386 @@
  <section class="alt">
  <div class="container">
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
-             <div class="services-grid">
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Built-In Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Built-In Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Built-In</li>
-                            <li>Tall Tub Built-In</li>
-                            <li>Quiet Built-In</li>
-                            <li>Energy Star Built-In</li>
-                            <li>Third Rack Built-In</li>
-                            <li>Premium Built-In</li>
-                            <li>Standard 24-Inch</li>
-                            <li>ADA Compliant Built-In</li>
-                            <li>Pocket Handle Built-In</li>
-                        </ul>
-                        <div id="expandable-content-builtin" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-builtin" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Built-In Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung built-in dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their built-in dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers built-in dishwasher options to match every household need and budget throughout Manhattan.</p>
+ <div class="services-grid">
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Built-In Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Built-In Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Built-In</li>
+ <li>Tall Tub Built-In</li>
+ <li>Quiet Built-In</li>
+ <li>Energy Star Built-In</li>
+ <li>Third Rack Built-In</li>
+ <li>Premium Built-In</li>
+ <li>Standard 24-Inch</li>
+ <li>ADA Compliant Built-In</li>
+ <li>Pocket Handle Built-In</li>
+ </ul>
+ <div id="expandable-content-builtin" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-builtin" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Built-In Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung built-in dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their built-in dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers built-in dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Built-In Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung built-in dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Built-In Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung built-in dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Built-In Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung built-in dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Built-In Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung built-in dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Built-In Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung built-in dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung built-in dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Built-In Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung built-in dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung built-in dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Built-In Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung built-in dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Built-In Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung built-in dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Built-In Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest built-in dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most built-in dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable built-in dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Built-In Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest built-in dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most built-in dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable built-in dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-builtin" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-builtin" onclick="toggleExpand('builtin')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Portable Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Portable Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Rolling Portable</li>
-                            <li>Countertop Portable</li>
-                            <li>18-Inch Portable</li>
-                            <li>24-Inch Portable</li>
-                            <li>Convertible Portable</li>
-                            <li>Apartment Portable</li>
-                            <li>Compact Portable</li>
-                            <li>Faucet-Connect Portable</li>
-                            <li>Space-Saving Portable</li>
-                        </ul>
-                        <div id="expandable-content-portable" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-portable" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Portable Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung portable dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their portable dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers portable dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-builtin" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-builtin" onclick="toggleExpand('builtin')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Portable Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Portable Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Rolling Portable</li>
+ <li>Countertop Portable</li>
+ <li>18-Inch Portable</li>
+ <li>24-Inch Portable</li>
+ <li>Convertible Portable</li>
+ <li>Apartment Portable</li>
+ <li>Compact Portable</li>
+ <li>Faucet-Connect Portable</li>
+ <li>Space-Saving Portable</li>
+ </ul>
+ <div id="expandable-content-portable" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-portable" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Portable Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung portable dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their portable dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers portable dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Portable Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung portable dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Portable Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung portable dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Portable Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung portable dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Portable Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung portable dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Portable Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung portable dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung portable dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Portable Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung portable dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung portable dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Portable Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung portable dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Portable Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung portable dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Portable Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest portable dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most portable dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable portable dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Portable Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest portable dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most portable dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable portable dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-portable" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-portable" onclick="toggleExpand('portable')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Drawer Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Drawer Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Single Drawer Models</li>
-                            <li>Double Drawer Models</li>
-                            <li>Built-In Drawer</li>
-                            <li>Semi-Integrated Drawer</li>
-                            <li>Panel-Ready Drawer</li>
-                            <li>Compact Drawer</li>
-                            <li>Undercounter Drawer</li>
-                            <li>ADA Drawer Models</li>
-                            <li>Premium Drawer</li>
-                        </ul>
-                        <div id="expandable-content-drawer" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-drawer" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Drawer Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung drawer dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their drawer dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers drawer dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-portable" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-portable" onclick="toggleExpand('portable')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Drawer Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Drawer Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Single Drawer Models</li>
+ <li>Double Drawer Models</li>
+ <li>Built-In Drawer</li>
+ <li>Semi-Integrated Drawer</li>
+ <li>Panel-Ready Drawer</li>
+ <li>Compact Drawer</li>
+ <li>Undercounter Drawer</li>
+ <li>ADA Drawer Models</li>
+ <li>Premium Drawer</li>
+ </ul>
+ <div id="expandable-content-drawer" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-drawer" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Drawer Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung drawer dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their drawer dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers drawer dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Drawer Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung drawer dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Drawer Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung drawer dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Drawer Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung drawer dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Drawer Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung drawer dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Drawer Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung drawer dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung drawer dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Drawer Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung drawer dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung drawer dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Drawer Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung drawer dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Drawer Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung drawer dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Drawer Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest drawer dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most drawer dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable drawer dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Drawer Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest drawer dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most drawer dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable drawer dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-drawer" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-drawer" onclick="toggleExpand('drawer')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Compact Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Compact Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>18-Inch Compact</li>
-                            <li>Countertop Compact</li>
-                            <li>Apartment Compact</li>
-                            <li>Space-Saving Compact</li>
-                            <li>Slim Compact Models</li>
-                            <li>Energy Star Compact</li>
-                            <li>Portable Compact</li>
-                            <li>Built-In Compact</li>
-                            <li>RV Compact Models</li>
-                        </ul>
-                        <div id="expandable-content-compact" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-compact" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Compact Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung compact dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their compact dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers compact dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-drawer" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-drawer" onclick="toggleExpand('drawer')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Compact Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Compact Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>18-Inch Compact</li>
+ <li>Countertop Compact</li>
+ <li>Apartment Compact</li>
+ <li>Space-Saving Compact</li>
+ <li>Slim Compact Models</li>
+ <li>Energy Star Compact</li>
+ <li>Portable Compact</li>
+ <li>Built-In Compact</li>
+ <li>RV Compact Models</li>
+ </ul>
+ <div id="expandable-content-compact" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-compact" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Compact Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung compact dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their compact dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers compact dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Compact Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung compact dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Compact Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung compact dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Compact Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung compact dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Compact Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung compact dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Compact Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung compact dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung compact dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Compact Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung compact dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung compact dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Compact Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung compact dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Compact Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung compact dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Compact Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest compact dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most compact dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable compact dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Compact Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest compact dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most compact dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable compact dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-compact" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-compact" onclick="toggleExpand('compact')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Commercial Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Commercial Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Undercounter Commercial</li>
-                            <li>Door-Type Commercial</li>
-                            <li>Conveyor Commercial</li>
-                            <li>Glasswasher Commercial</li>
-                            <li>High-Temp Commercial</li>
-                            <li>Low-Temp Commercial</li>
-                            <li>Bar Dishwasher</li>
-                            <li>Restaurant Dishwasher</li>
-                            <li>Flight-Type Commercial</li>
-                        </ul>
-                        <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Commercial Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung commercial dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers commercial dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-compact" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-compact" onclick="toggleExpand('compact')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Commercial Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Commercial Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Undercounter Commercial</li>
+ <li>Door-Type Commercial</li>
+ <li>Conveyor Commercial</li>
+ <li>Glasswasher Commercial</li>
+ <li>High-Temp Commercial</li>
+ <li>Low-Temp Commercial</li>
+ <li>Bar Dishwasher</li>
+ <li>Restaurant Dishwasher</li>
+ <li>Flight-Type Commercial</li>
+ </ul>
+ <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Commercial Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung commercial dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers commercial dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Commercial Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung commercial dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Commercial Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung commercial dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Commercial Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung commercial dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Commercial Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung commercial dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung commercial dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung commercial dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung commercial dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung commercial dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Commercial Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung commercial dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Commercial Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung commercial dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Commercial Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest commercial dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable commercial dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Commercial Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest commercial dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable commercial dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Panel-Ready Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Panel-Ready Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Fully Integrated</li>
-                            <li>Semi-Integrated</li>
-                            <li>Custom Panel</li>
-                            <li>Hidden Control</li>
-                            <li>Premium Panel-Ready</li>
-                            <li>Designer Panel-Ready</li>
-                            <li>Flush Install</li>
-                            <li>Cabinet-Match</li>
-                            <li>Luxury Panel-Ready</li>
-                        </ul>
-                        <div id="expandable-content-panelready" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-panelready" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Panel-Ready Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung panel-ready dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their panel-ready dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers panel-ready dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Panel-Ready Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Panel-Ready Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Fully Integrated</li>
+ <li>Semi-Integrated</li>
+ <li>Custom Panel</li>
+ <li>Hidden Control</li>
+ <li>Premium Panel-Ready</li>
+ <li>Designer Panel-Ready</li>
+ <li>Flush Install</li>
+ <li>Cabinet-Match</li>
+ <li>Luxury Panel-Ready</li>
+ </ul>
+ <div id="expandable-content-panelready" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-panelready" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Panel-Ready Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung panel-ready dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their panel-ready dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers panel-ready dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Panel-Ready Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung panel-ready dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Panel-Ready Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung panel-ready dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Panel-Ready Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung panel-ready dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Panel-Ready Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung panel-ready dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Panel-Ready Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung panel-ready dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung panel-ready dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Panel-Ready Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung panel-ready dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung panel-ready dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Panel-Ready Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung panel-ready dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Panel-Ready Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung panel-ready dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Panel-Ready Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest panel-ready dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most panel-ready dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable panel-ready dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Panel-Ready Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest panel-ready dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most panel-ready dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable panel-ready dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-panelready" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-panelready" onclick="toggleExpand('panelready')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Top Control Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Top Control Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Hidden Top Control</li>
-                            <li>Standard Top Control</li>
-                            <li>Premium Top Control</li>
-                            <li>Smart Top Control</li>
-                            <li>Quiet Top Control</li>
-                            <li>Third Rack Top Control</li>
-                            <li>Energy Star Top Control</li>
-                            <li>Fingerprint-Resistant</li>
-                            <li>Stainless Top Control</li>
-                        </ul>
-                        <div id="expandable-content-topcontrol" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-topcontrol" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Top Control Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung top control dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their top control dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers top control dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-panelready" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-panelready" onclick="toggleExpand('panelready')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Top Control Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Top Control Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Hidden Top Control</li>
+ <li>Standard Top Control</li>
+ <li>Premium Top Control</li>
+ <li>Smart Top Control</li>
+ <li>Quiet Top Control</li>
+ <li>Third Rack Top Control</li>
+ <li>Energy Star Top Control</li>
+ <li>Fingerprint-Resistant</li>
+ <li>Stainless Top Control</li>
+ </ul>
+ <div id="expandable-content-topcontrol" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-topcontrol" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Top Control Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung top control dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their top control dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers top control dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Top Control Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung top control dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Top Control Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung top control dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Top Control Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung top control dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Top Control Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung top control dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Top Control Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung top control dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung top control dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Top Control Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung top control dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung top control dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Top Control Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung top control dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Top Control Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung top control dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Top Control Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest top control dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most top control dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable top control dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Top Control Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest top control dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most top control dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable top control dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-topcontrol" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-topcontrol" onclick="toggleExpand('topcontrol')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Front Control Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Front Control Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Front Control</li>
-                            <li>Digital Front Control</li>
-                            <li>Button Front Control</li>
-                            <li>Budget Front Control</li>
-                            <li>Entry-Level</li>
-                            <li>Traditional Front Control</li>
-                            <li>Visible Control Panel</li>
-                            <li>Easy-Access</li>
-                            <li>Classic Front Control</li>
-                        </ul>
-                        <div id="expandable-content-frontcontrol" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-frontcontrol" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Front Control Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung front control dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their front control dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers front control dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-topcontrol" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-topcontrol" onclick="toggleExpand('topcontrol')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Front Control Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Front Control Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Front Control</li>
+ <li>Digital Front Control</li>
+ <li>Button Front Control</li>
+ <li>Budget Front Control</li>
+ <li>Entry-Level</li>
+ <li>Traditional Front Control</li>
+ <li>Visible Control Panel</li>
+ <li>Easy-Access</li>
+ <li>Classic Front Control</li>
+ </ul>
+ <div id="expandable-content-frontcontrol" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-frontcontrol" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Front Control Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung front control dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their front control dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers front control dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Front Control Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung front control dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Front Control Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung front control dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Front Control Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung front control dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Front Control Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung front control dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Front Control Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung front control dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung front control dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Front Control Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung front control dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung front control dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Front Control Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung front control dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Front Control Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung front control dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Front Control Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest front control dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most front control dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable front control dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Front Control Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest front control dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most front control dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable front control dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-frontcontrol" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-frontcontrol" onclick="toggleExpand('frontcontrol')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Smart Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
-                    <h3>Samsung Smart Dishwasher Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>WiFi-Connected</li>
-                            <li>Smart Diagnosis</li>
-                            <li>App-Controlled</li>
-                            <li>Voice-Controlled</li>
-                            <li>Alexa-Compatible</li>
-                            <li>Google Home</li>
-                            <li>Remote Start</li>
-                            <li>Smart Leak Detection</li>
-                            <li>Connected Dishwasher</li>
-                        </ul>
-                        <div id="expandable-content-smart" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-smart" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Smart Dishwasher Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Samsung smart dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their smart dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers smart dishwasher options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-frontcontrol" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-frontcontrol" onclick="toggleExpand('frontcontrol')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Samsung Smart Dishwasher repair" loading="lazy" ></div>
+ <h3>Samsung Smart Dishwasher Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>WiFi-Connected</li>
+ <li>Smart Diagnosis</li>
+ <li>App-Controlled</li>
+ <li>Voice-Controlled</li>
+ <li>Alexa-Compatible</li>
+ <li>Google Home</li>
+ <li>Remote Start</li>
+ <li>Smart Leak Detection</li>
+ <li>Connected Dishwasher</li>
+ </ul>
+ <div id="expandable-content-smart" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-smart" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Samsung Smart Dishwasher Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Samsung smart dishwasher models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These dishwashers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Samsung incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their smart dishwasher lineup from competitors. The quality materials and thoughtful engineering in Samsung appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Samsung offers smart dishwasher options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Smart Dishwasher Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung smart dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Samsung Smart Dishwasher Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Samsung smart dishwasher issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Samsung-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Smart Dishwasher Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Samsung smart dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Samsung Smart Dishwasher Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Samsung smart dishwasher repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Samsung appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Samsung-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Smart Dishwasher Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung smart dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung smart dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Smart Dishwasher Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Samsung smart dishwasher repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Samsung smart dishwasher units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Smart Dishwasher Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Samsung smart dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Samsung Smart Dishwasher Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Samsung smart dishwasher with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Samsung provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Smart Dishwasher Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest smart dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most smart dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable smart dishwasher service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Samsung Smart Dishwasher Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Samsung-certified technicians</strong> receive ongoing factory training on the latest smart dishwasher models and repair techniques. We use only genuine Samsung replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Samsung appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most smart dishwasher repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Samsung appliance repair throughout Manhattan. Contact us today for fast, reliable smart dishwasher service.</p>
 
-                            </div>
-                            <div id="expandable-fade-smart" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-smart" onclick="toggleExpand('smart')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-            </div>
+ </div>
+ <div id="expandable-fade-smart" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-smart" onclick="toggleExpand('smart')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ </div>
 
  </div>
  </section>

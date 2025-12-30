@@ -58,25 +58,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -139,25 +139,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -511,24 +511,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1287,7 +1294,7 @@
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Hood Vent Repair</h2>
  <div class="services-grid">
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Under Cabinet Hood Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1320,7 +1327,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Wall Mount Hood Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1353,7 +1360,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Island Hood Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1386,7 +1393,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Downdraft Ventilation Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1419,7 +1426,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Oven repair" loading="lazy" ></div>
  <h3>Range Hood Filter Service</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1452,7 +1459,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Ventilation Motor Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1485,7 +1492,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Hood Lighting Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1518,7 +1525,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Hood Control Panel Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1551,7 +1558,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Complete Hood Vent Service</h3>
  <div class="service-types">
  <h4>Plus any other hood vent issue — we fix them all!</h4>
@@ -1730,71 +1737,71 @@
  <script>
  // Towns list with URLs
  const manhattanNeighborhoods = [
-    {name: "Alphabet City", zip: "10009", url: "https://manhattanappliancerepairnyc.com/ny/alphabet-city/"},
-    {name: "Battery Park City", zip: "10280", url: "https://manhattanappliancerepairnyc.com/ny/battery-park-city/"},
-    {name: "Bloomingdale", zip: "10025", url: "https://manhattanappliancerepairnyc.com/ny/bloomingdale/"},
-    {name: "Bowery", zip: "10002", url: "https://manhattanappliancerepairnyc.com/ny/bowery/"},
-    {name: "Bryant Park", zip: "10018", url: "https://manhattanappliancerepairnyc.com/ny/bryant-park/"},
-    {name: "Carnegie Hill", zip: "10128", url: "https://manhattanappliancerepairnyc.com/ny/carnegie-hill/"},
-    {name: "Central Harlem", zip: "10026", url: "https://manhattanappliancerepairnyc.com/ny/central-harlem/"},
-    {name: "Central Park South", zip: "10019", url: "https://manhattanappliancerepairnyc.com/ny/central-park-south/"},
-    {name: "Chelsea", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/chelsea/"},
-    {name: "Chinatown", zip: "10013", url: "https://manhattanappliancerepairnyc.com/ny/chinatown/"},
-    {name: "Civic Center", zip: "10007", url: "https://manhattanappliancerepairnyc.com/ny/civic-center/"},
-    {name: "Columbus Circle", zip: "10023", url: "https://manhattanappliancerepairnyc.com/ny/columbus-circle/"},
-    {name: "East Harlem", zip: "10029", url: "https://manhattanappliancerepairnyc.com/ny/east-harlem/"},
-    {name: "East Village", zip: "10003", url: "https://manhattanappliancerepairnyc.com/ny/east-village/"},
-    {name: "Financial District", zip: "10005", url: "https://manhattanappliancerepairnyc.com/ny/financial-district/"},
-    {name: "Flatiron District", zip: "10010", url: "https://manhattanappliancerepairnyc.com/ny/flatiron-district/"},
-    {name: "Fort George", zip: "10040", url: "https://manhattanappliancerepairnyc.com/ny/fort-george/"},
-    {name: "Garment District", zip: "10018", url: "https://manhattanappliancerepairnyc.com/ny/garment-district/"},
-    {name: "Gramercy", zip: "10003", url: "https://manhattanappliancerepairnyc.com/ny/gramercy/"},
-    {name: "Greenwich Village", zip: "10014", url: "https://manhattanappliancerepairnyc.com/ny/greenwich-village/"},
-    {name: "Hamilton Heights", zip: "10031", url: "https://manhattanappliancerepairnyc.com/ny/hamilton-heights/"},
-    {name: "Harlem", zip: "10027", url: "https://manhattanappliancerepairnyc.com/ny/harlem/"},
-    {name: "Hell's Kitchen", zip: "10036", url: "https://manhattanappliancerepairnyc.com/ny/hells-kitchen/"},
-    {name: "Herald Square", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/herald-square/"},
-    {name: "Hudson Heights", zip: "10033", url: "https://manhattanappliancerepairnyc.com/ny/hudson-heights/"},
-    {name: "Hudson Square", zip: "10013", url: "https://manhattanappliancerepairnyc.com/ny/hudson-square/"},
-    {name: "Hudson Yards", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/hudson-yards/"},
-    {name: "Inwood", zip: "10034", url: "https://manhattanappliancerepairnyc.com/ny/inwood/"},
-    {name: "Kips Bay", zip: "10016", url: "https://manhattanappliancerepairnyc.com/ny/kips-bay/"},
-    {name: "Koreatown", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/koreatown/"},
-    {name: "Lenox Hill", zip: "10021", url: "https://manhattanappliancerepairnyc.com/ny/lenox-hill/"},
-    {name: "Lincoln Square", zip: "10023", url: "https://manhattanappliancerepairnyc.com/ny/lincoln-square/"},
-    {name: "Little Italy", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/little-italy/"},
-    {name: "Lower East Side", zip: "10002", url: "https://manhattanappliancerepairnyc.com/ny/lower-east-side/"},
-    {name: "Madison Square", zip: "10010", url: "https://manhattanappliancerepairnyc.com/ny/madison-square/"},
-    {name: "Manhattan Valley", zip: "10025", url: "https://manhattanappliancerepairnyc.com/ny/manhattan-valley/"},
-    {name: "Manhattanville", zip: "10027", url: "https://manhattanappliancerepairnyc.com/ny/manhattanville/"},
-    {name: "Marble Hill", zip: "10463", url: "https://manhattanappliancerepairnyc.com/ny/marble-hill/"},
-    {name: "Midtown East", zip: "10017", url: "https://manhattanappliancerepairnyc.com/ny/midtown-east/"},
-    {name: "Midtown West", zip: "10019", url: "https://manhattanappliancerepairnyc.com/ny/midtown-west/"},
-    {name: "Morningside Heights", zip: "10027", url: "https://manhattanappliancerepairnyc.com/ny/morningside-heights/"},
-    {name: "Murray Hill", zip: "10016", url: "https://manhattanappliancerepairnyc.com/ny/murray-hill/"},
-    {name: "NoHo", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/noho/"},
-    {name: "NoMad", zip: "10010", url: "https://manhattanappliancerepairnyc.com/ny/nomad/"},
-    {name: "Nolita", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/nolita/"},
-    {name: "Rockefeller Center", zip: "10020", url: "https://manhattanappliancerepairnyc.com/ny/rockefeller-center/"},
-    {name: "Roosevelt Island", zip: "10044", url: "https://manhattanappliancerepairnyc.com/ny/roosevelt-island/"},
-    {name: "Seaport District", zip: "10038", url: "https://manhattanappliancerepairnyc.com/ny/seaport-district/"},
-    {name: "SoHo", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/soho/"},
-    {name: "Stuyvesant Town", zip: "10009", url: "https://manhattanappliancerepairnyc.com/ny/stuyvesant-town/"},
-    {name: "Sugar Hill", zip: "10031", url: "https://manhattanappliancerepairnyc.com/ny/sugar-hill/"},
-    {name: "Sutton Place", zip: "10022", url: "https://manhattanappliancerepairnyc.com/ny/sutton-place/"},
-    {name: "Theater District", zip: "10036", url: "https://manhattanappliancerepairnyc.com/ny/theater-district/"},
-    {name: "Times Square", zip: "10036", url: "https://manhattanappliancerepairnyc.com/ny/times-square/"},
-    {name: "Tribeca", zip: "10013", url: "https://manhattanappliancerepairnyc.com/ny/tribeca/"},
-    {name: "Tudor City", zip: "10017", url: "https://manhattanappliancerepairnyc.com/ny/tudor-city/"},
-    {name: "Turtle Bay", zip: "10017", url: "https://manhattanappliancerepairnyc.com/ny/turtle-bay/"},
-    {name: "Union Square", zip: "10003", url: "https://manhattanappliancerepairnyc.com/ny/union-square/"},
-    {name: "Upper East Side", zip: "10021", url: "https://manhattanappliancerepairnyc.com/ny/upper-east-side/"},
-    {name: "Upper West Side", zip: "10024", url: "https://manhattanappliancerepairnyc.com/ny/upper-west-side/"},
-    {name: "Washington Heights", zip: "10032", url: "https://manhattanappliancerepairnyc.com/ny/washington-heights/"},
-    {name: "West Harlem", zip: "10030", url: "https://manhattanappliancerepairnyc.com/ny/west-harlem/"},
-    {name: "West Village", zip: "10014", url: "https://manhattanappliancerepairnyc.com/ny/west-village/"},
-    {name: "Yorkville", zip: "10028", url: "https://manhattanappliancerepairnyc.com/ny/yorkville/"}
-  ].sort((a, b) => a.name.localeCompare(b.name));
+ {name: "Alphabet City", zip: "10009", url: "https://manhattanappliancerepairnyc.com/ny/alphabet-city/"},
+ {name: "Battery Park City", zip: "10280", url: "https://manhattanappliancerepairnyc.com/ny/battery-park-city/"},
+ {name: "Bloomingdale", zip: "10025", url: "https://manhattanappliancerepairnyc.com/ny/bloomingdale/"},
+ {name: "Bowery", zip: "10002", url: "https://manhattanappliancerepairnyc.com/ny/bowery/"},
+ {name: "Bryant Park", zip: "10018", url: "https://manhattanappliancerepairnyc.com/ny/bryant-park/"},
+ {name: "Carnegie Hill", zip: "10128", url: "https://manhattanappliancerepairnyc.com/ny/carnegie-hill/"},
+ {name: "Central Harlem", zip: "10026", url: "https://manhattanappliancerepairnyc.com/ny/central-harlem/"},
+ {name: "Central Park South", zip: "10019", url: "https://manhattanappliancerepairnyc.com/ny/central-park-south/"},
+ {name: "Chelsea", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/chelsea/"},
+ {name: "Chinatown", zip: "10013", url: "https://manhattanappliancerepairnyc.com/ny/chinatown/"},
+ {name: "Civic Center", zip: "10007", url: "https://manhattanappliancerepairnyc.com/ny/civic-center/"},
+ {name: "Columbus Circle", zip: "10023", url: "https://manhattanappliancerepairnyc.com/ny/columbus-circle/"},
+ {name: "East Harlem", zip: "10029", url: "https://manhattanappliancerepairnyc.com/ny/east-harlem/"},
+ {name: "East Village", zip: "10003", url: "https://manhattanappliancerepairnyc.com/ny/east-village/"},
+ {name: "Financial District", zip: "10005", url: "https://manhattanappliancerepairnyc.com/ny/financial-district/"},
+ {name: "Flatiron District", zip: "10010", url: "https://manhattanappliancerepairnyc.com/ny/flatiron-district/"},
+ {name: "Fort George", zip: "10040", url: "https://manhattanappliancerepairnyc.com/ny/fort-george/"},
+ {name: "Garment District", zip: "10018", url: "https://manhattanappliancerepairnyc.com/ny/garment-district/"},
+ {name: "Gramercy", zip: "10003", url: "https://manhattanappliancerepairnyc.com/ny/gramercy/"},
+ {name: "Greenwich Village", zip: "10014", url: "https://manhattanappliancerepairnyc.com/ny/greenwich-village/"},
+ {name: "Hamilton Heights", zip: "10031", url: "https://manhattanappliancerepairnyc.com/ny/hamilton-heights/"},
+ {name: "Harlem", zip: "10027", url: "https://manhattanappliancerepairnyc.com/ny/harlem/"},
+ {name: "Hell's Kitchen", zip: "10036", url: "https://manhattanappliancerepairnyc.com/ny/hells-kitchen/"},
+ {name: "Herald Square", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/herald-square/"},
+ {name: "Hudson Heights", zip: "10033", url: "https://manhattanappliancerepairnyc.com/ny/hudson-heights/"},
+ {name: "Hudson Square", zip: "10013", url: "https://manhattanappliancerepairnyc.com/ny/hudson-square/"},
+ {name: "Hudson Yards", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/hudson-yards/"},
+ {name: "Inwood", zip: "10034", url: "https://manhattanappliancerepairnyc.com/ny/inwood/"},
+ {name: "Kips Bay", zip: "10016", url: "https://manhattanappliancerepairnyc.com/ny/kips-bay/"},
+ {name: "Koreatown", zip: "10001", url: "https://manhattanappliancerepairnyc.com/ny/koreatown/"},
+ {name: "Lenox Hill", zip: "10021", url: "https://manhattanappliancerepairnyc.com/ny/lenox-hill/"},
+ {name: "Lincoln Square", zip: "10023", url: "https://manhattanappliancerepairnyc.com/ny/lincoln-square/"},
+ {name: "Little Italy", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/little-italy/"},
+ {name: "Lower East Side", zip: "10002", url: "https://manhattanappliancerepairnyc.com/ny/lower-east-side/"},
+ {name: "Madison Square", zip: "10010", url: "https://manhattanappliancerepairnyc.com/ny/madison-square/"},
+ {name: "Manhattan Valley", zip: "10025", url: "https://manhattanappliancerepairnyc.com/ny/manhattan-valley/"},
+ {name: "Manhattanville", zip: "10027", url: "https://manhattanappliancerepairnyc.com/ny/manhattanville/"},
+ {name: "Marble Hill", zip: "10463", url: "https://manhattanappliancerepairnyc.com/ny/marble-hill/"},
+ {name: "Midtown East", zip: "10017", url: "https://manhattanappliancerepairnyc.com/ny/midtown-east/"},
+ {name: "Midtown West", zip: "10019", url: "https://manhattanappliancerepairnyc.com/ny/midtown-west/"},
+ {name: "Morningside Heights", zip: "10027", url: "https://manhattanappliancerepairnyc.com/ny/morningside-heights/"},
+ {name: "Murray Hill", zip: "10016", url: "https://manhattanappliancerepairnyc.com/ny/murray-hill/"},
+ {name: "NoHo", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/noho/"},
+ {name: "NoMad", zip: "10010", url: "https://manhattanappliancerepairnyc.com/ny/nomad/"},
+ {name: "Nolita", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/nolita/"},
+ {name: "Rockefeller Center", zip: "10020", url: "https://manhattanappliancerepairnyc.com/ny/rockefeller-center/"},
+ {name: "Roosevelt Island", zip: "10044", url: "https://manhattanappliancerepairnyc.com/ny/roosevelt-island/"},
+ {name: "Seaport District", zip: "10038", url: "https://manhattanappliancerepairnyc.com/ny/seaport-district/"},
+ {name: "SoHo", zip: "10012", url: "https://manhattanappliancerepairnyc.com/ny/soho/"},
+ {name: "Stuyvesant Town", zip: "10009", url: "https://manhattanappliancerepairnyc.com/ny/stuyvesant-town/"},
+ {name: "Sugar Hill", zip: "10031", url: "https://manhattanappliancerepairnyc.com/ny/sugar-hill/"},
+ {name: "Sutton Place", zip: "10022", url: "https://manhattanappliancerepairnyc.com/ny/sutton-place/"},
+ {name: "Theater District", zip: "10036", url: "https://manhattanappliancerepairnyc.com/ny/theater-district/"},
+ {name: "Times Square", zip: "10036", url: "https://manhattanappliancerepairnyc.com/ny/times-square/"},
+ {name: "Tribeca", zip: "10013", url: "https://manhattanappliancerepairnyc.com/ny/tribeca/"},
+ {name: "Tudor City", zip: "10017", url: "https://manhattanappliancerepairnyc.com/ny/tudor-city/"},
+ {name: "Turtle Bay", zip: "10017", url: "https://manhattanappliancerepairnyc.com/ny/turtle-bay/"},
+ {name: "Union Square", zip: "10003", url: "https://manhattanappliancerepairnyc.com/ny/union-square/"},
+ {name: "Upper East Side", zip: "10021", url: "https://manhattanappliancerepairnyc.com/ny/upper-east-side/"},
+ {name: "Upper West Side", zip: "10024", url: "https://manhattanappliancerepairnyc.com/ny/upper-west-side/"},
+ {name: "Washington Heights", zip: "10032", url: "https://manhattanappliancerepairnyc.com/ny/washington-heights/"},
+ {name: "West Harlem", zip: "10030", url: "https://manhattanappliancerepairnyc.com/ny/west-harlem/"},
+ {name: "West Village", zip: "10014", url: "https://manhattanappliancerepairnyc.com/ny/west-village/"},
+ {name: "Yorkville", zip: "10028", url: "https://manhattanappliancerepairnyc.com/ny/yorkville/"}
+ ].sort((a, b) => a.name.localeCompare(b.name));
  
  function toggleExpand(id) {
  event.stopPropagation();

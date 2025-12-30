@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1278,386 +1285,386 @@
  <section class="alt">
  <div class="container">
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
-             <div class="services-grid">
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Front Load Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Front Load Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Front Load</li>
-                            <li>Steam Front Load</li>
-                            <li>TurboWash Front Load</li>
-                            <li>Smart WiFi Front Load</li>
-                            <li>High-Efficiency Front Load</li>
-                            <li>Compact 24-Inch Front Load</li>
-                            <li>Large Capacity Front Load</li>
-                            <li>Stackable Front Load</li>
-                            <li>Energy Star Front Load</li>
-                        </ul>
-                        <div id="expandable-content-frontload" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-frontload" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Front Load Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele front load washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their front load washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers front load washer options to match every household need and budget throughout Manhattan.</p>
+ <div class="services-grid">
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Front Load Washer repair" loading="lazy" ></div>
+ <h3>Miele Front Load Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Front Load</li>
+ <li>Steam Front Load</li>
+ <li>TurboWash Front Load</li>
+ <li>Smart WiFi Front Load</li>
+ <li>High-Efficiency Front Load</li>
+ <li>Compact 24-Inch Front Load</li>
+ <li>Large Capacity Front Load</li>
+ <li>Stackable Front Load</li>
+ <li>Energy Star Front Load</li>
+ </ul>
+ <div id="expandable-content-frontload" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-frontload" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Front Load Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele front load washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their front load washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers front load washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Front Load Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele front load washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Front Load Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele front load washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Front Load Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele front load washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Front Load Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele front load washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Front Load Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele front load washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele front load washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Front Load Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele front load washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele front load washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Front Load Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele front load washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Front Load Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele front load washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Front Load Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest front load washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most front load washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable front load washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Front Load Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest front load washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most front load washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable front load washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-frontload" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-frontload" onclick="toggleExpand('frontload')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Top Load Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Top Load Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Agitator Top Load</li>
-                            <li>Impeller Top Load</li>
-                            <li>High-Efficiency Top Load</li>
-                            <li>Smart WiFi Top Load</li>
-                            <li>Steam Top Load</li>
-                            <li>Large Capacity Top Load</li>
-                            <li>Mega Capacity Top Load</li>
-                            <li>Deep Fill Top Load</li>
-                            <li>Portable Top Load</li>
-                        </ul>
-                        <div id="expandable-content-topload" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-topload" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Top Load Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele top load washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their top load washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers top load washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-frontload" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-frontload" onclick="toggleExpand('frontload')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Top Load Washer repair" loading="lazy" ></div>
+ <h3>Miele Top Load Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Agitator Top Load</li>
+ <li>Impeller Top Load</li>
+ <li>High-Efficiency Top Load</li>
+ <li>Smart WiFi Top Load</li>
+ <li>Steam Top Load</li>
+ <li>Large Capacity Top Load</li>
+ <li>Mega Capacity Top Load</li>
+ <li>Deep Fill Top Load</li>
+ <li>Portable Top Load</li>
+ </ul>
+ <div id="expandable-content-topload" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-topload" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Top Load Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele top load washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their top load washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers top load washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Top Load Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele top load washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Top Load Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele top load washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Top Load Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele top load washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Top Load Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele top load washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Top Load Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele top load washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele top load washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Top Load Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele top load washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele top load washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Top Load Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele top load washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Top Load Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele top load washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Top Load Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest top load washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most top load washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable top load washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Top Load Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest top load washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most top load washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable top load washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-topload" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-topload" onclick="toggleExpand('topload')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Commercial Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Commercial Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Laundromat Washers</li>
-                            <li>Multi-Housing Washers</li>
-                            <li>Hotel Hospitality Washers</li>
-                            <li>Healthcare Facility Washers</li>
-                            <li>Coin-Operated Washers</li>
-                            <li>Card-Operated Washers</li>
-                            <li>On-Premises Laundry</li>
-                            <li>High-Extract Washers</li>
-                            <li>Stacked Commercial Units</li>
-                        </ul>
-                        <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Commercial Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele commercial washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers commercial washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-topload" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-topload" onclick="toggleExpand('topload')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Commercial Washer repair" loading="lazy" ></div>
+ <h3>Miele Commercial Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Laundromat Washers</li>
+ <li>Multi-Housing Washers</li>
+ <li>Hotel Hospitality Washers</li>
+ <li>Healthcare Facility Washers</li>
+ <li>Coin-Operated Washers</li>
+ <li>Card-Operated Washers</li>
+ <li>On-Premises Laundry</li>
+ <li>High-Extract Washers</li>
+ <li>Stacked Commercial Units</li>
+ </ul>
+ <div id="expandable-content-commercial" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-commercial" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Commercial Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele commercial washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their commercial washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers commercial washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Commercial Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele commercial washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Commercial Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele commercial washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Commercial Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele commercial washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Commercial Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele commercial washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele commercial washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele commercial washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Commercial Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele commercial washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele commercial washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Commercial Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele commercial washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Commercial Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele commercial washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Commercial Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest commercial washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable commercial washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Commercial Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest commercial washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most commercial washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable commercial washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Residential Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Residential Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Standard Home Washers</li>
-                            <li>Premium Home Washers</li>
-                            <li>Entry-Level Washers</li>
-                            <li>Mid-Range Washers</li>
-                            <li>Laundry Room Washers</li>
-                            <li>Basement Washers</li>
-                            <li>Closet Washers</li>
-                            <li>Garage Washers</li>
-                            <li>Second-Floor Washers</li>
-                        </ul>
-                        <div id="expandable-content-residential" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-residential" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Residential Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele residential washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their residential washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers residential washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-commercial" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-commercial" onclick="toggleExpand('commercial')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Residential Washer repair" loading="lazy" ></div>
+ <h3>Miele Residential Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Standard Home Washers</li>
+ <li>Premium Home Washers</li>
+ <li>Entry-Level Washers</li>
+ <li>Mid-Range Washers</li>
+ <li>Laundry Room Washers</li>
+ <li>Basement Washers</li>
+ <li>Closet Washers</li>
+ <li>Garage Washers</li>
+ <li>Second-Floor Washers</li>
+ </ul>
+ <div id="expandable-content-residential" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-residential" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Residential Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele residential washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their residential washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers residential washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Residential Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele residential washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Residential Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele residential washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Residential Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele residential washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Residential Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele residential washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Residential Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele residential washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele residential washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Residential Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele residential washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele residential washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Residential Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele residential washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Residential Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele residential washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Residential Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest residential washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most residential washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable residential washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Residential Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest residential washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most residential washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable residential washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-residential" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-residential" onclick="toggleExpand('residential')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Portable Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Portable Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Faucet-Connect Portable</li>
-                            <li>Apartment Portable</li>
-                            <li>RV Portable Washers</li>
-                            <li>Compact Portable</li>
-                            <li>Rolling Portable</li>
-                            <li>Twin Tub Portable</li>
-                            <li>Manual Portable</li>
-                            <li>Electric Portable</li>
-                            <li>Camping Portable</li>
-                        </ul>
-                        <div id="expandable-content-portable" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-portable" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Portable Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele portable washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their portable washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers portable washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-residential" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-residential" onclick="toggleExpand('residential')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Portable Washer repair" loading="lazy" ></div>
+ <h3>Miele Portable Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Faucet-Connect Portable</li>
+ <li>Apartment Portable</li>
+ <li>RV Portable Washers</li>
+ <li>Compact Portable</li>
+ <li>Rolling Portable</li>
+ <li>Twin Tub Portable</li>
+ <li>Manual Portable</li>
+ <li>Electric Portable</li>
+ <li>Camping Portable</li>
+ </ul>
+ <div id="expandable-content-portable" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-portable" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Portable Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele portable washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their portable washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers portable washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Portable Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele portable washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Portable Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele portable washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Portable Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele portable washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Portable Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele portable washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Portable Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele portable washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele portable washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Portable Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele portable washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele portable washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Portable Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele portable washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Portable Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele portable washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Portable Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest portable washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most portable washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable portable washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Portable Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest portable washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most portable washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable portable washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-portable" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-portable" onclick="toggleExpand('portable')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Washer Dryer Combo repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Washer Dryer Combo Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Ventless Combo Units</li>
-                            <li>Heat Pump Combo Units</li>
-                            <li>Condensation Combo Units</li>
-                            <li>Compact Combo Units</li>
-                            <li>Full-Size Combo Units</li>
-                            <li>Smart Combo Units</li>
-                            <li>Steam Combo Units</li>
-                            <li>All-In-One Units</li>
-                            <li>Space-Saving Combos</li>
-                        </ul>
-                        <div id="expandable-content-combo" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-combo" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Washer Dryer Combo Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele washer dryer combo models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their washer dryer combo lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers washer dryer combo options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-portable" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-portable" onclick="toggleExpand('portable')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Washer Dryer Combo repair" loading="lazy" ></div>
+ <h3>Miele Washer Dryer Combo Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Ventless Combo Units</li>
+ <li>Heat Pump Combo Units</li>
+ <li>Condensation Combo Units</li>
+ <li>Compact Combo Units</li>
+ <li>Full-Size Combo Units</li>
+ <li>Smart Combo Units</li>
+ <li>Steam Combo Units</li>
+ <li>All-In-One Units</li>
+ <li>Space-Saving Combos</li>
+ </ul>
+ <div id="expandable-content-combo" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-combo" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Washer Dryer Combo Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele washer dryer combo models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their washer dryer combo lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers washer dryer combo options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Washer Dryer Combo Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele washer dryer combo issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Washer Dryer Combo Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele washer dryer combo issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Washer Dryer Combo Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele washer dryer combo repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Washer Dryer Combo Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele washer dryer combo repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Washer Dryer Combo Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele washer dryer combo repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele washer dryer combo units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Washer Dryer Combo Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele washer dryer combo repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele washer dryer combo units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Washer Dryer Combo Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele washer dryer combo with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Washer Dryer Combo Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele washer dryer combo with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Washer Dryer Combo Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest washer dryer combo models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most washer dryer combo repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable washer dryer combo service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Washer Dryer Combo Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest washer dryer combo models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most washer dryer combo repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable washer dryer combo service.</p>
 
-                            </div>
-                            <div id="expandable-fade-combo" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-combo" onclick="toggleExpand('combo')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Stackable Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Stackable Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Front Load Stackable</li>
-                            <li>Laundry Tower Units</li>
-                            <li>Compact Stackable</li>
-                            <li>Full-Size Stackable</li>
-                            <li>Closet Stackable</li>
-                            <li>Apartment Stackable</li>
-                            <li>Stacking Kit Units</li>
-                            <li>Single-Unit Towers</li>
-                            <li>Laundry Center Units</li>
-                        </ul>
-                        <div id="expandable-content-stackable" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-stackable" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Stackable Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele stackable washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their stackable washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers stackable washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-combo" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-combo" onclick="toggleExpand('combo')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Stackable Washer repair" loading="lazy" ></div>
+ <h3>Miele Stackable Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Front Load Stackable</li>
+ <li>Laundry Tower Units</li>
+ <li>Compact Stackable</li>
+ <li>Full-Size Stackable</li>
+ <li>Closet Stackable</li>
+ <li>Apartment Stackable</li>
+ <li>Stacking Kit Units</li>
+ <li>Single-Unit Towers</li>
+ <li>Laundry Center Units</li>
+ </ul>
+ <div id="expandable-content-stackable" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-stackable" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Stackable Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele stackable washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their stackable washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers stackable washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Stackable Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele stackable washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Stackable Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele stackable washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Stackable Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele stackable washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Stackable Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele stackable washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Stackable Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele stackable washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele stackable washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Stackable Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele stackable washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele stackable washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Stackable Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele stackable washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Stackable Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele stackable washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Stackable Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest stackable washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most stackable washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable stackable washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Stackable Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest stackable washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most stackable washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable stackable washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-stackable" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-stackable" onclick="toggleExpand('stackable')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Steam Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele Steam Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>Steam Clean Washers</li>
-                            <li>Allergen Reduction Steam</li>
-                            <li>TrueSteam Washers</li>
-                            <li>Steam Refresh Washers</li>
-                            <li>Sanitize Steam Cycle</li>
-                            <li>Wrinkle Release Steam</li>
-                            <li>Deep Clean Steam</li>
-                            <li>Steam Front Load</li>
-                            <li>Steam Top Load</li>
-                        </ul>
-                        <div id="expandable-content-steam" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-steam" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Steam Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele steam washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their steam washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers steam washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-stackable" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-stackable" onclick="toggleExpand('stackable')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele Steam Washer repair" loading="lazy" ></div>
+ <h3>Miele Steam Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>Steam Clean Washers</li>
+ <li>Allergen Reduction Steam</li>
+ <li>TrueSteam Washers</li>
+ <li>Steam Refresh Washers</li>
+ <li>Sanitize Steam Cycle</li>
+ <li>Wrinkle Release Steam</li>
+ <li>Deep Clean Steam</li>
+ <li>Steam Front Load</li>
+ <li>Steam Top Load</li>
+ </ul>
+ <div id="expandable-content-steam" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-steam" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele Steam Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele steam washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their steam washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers steam washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Steam Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele steam washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele Steam Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele steam washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Steam Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele steam washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele Steam Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele steam washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Steam Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele steam washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele steam washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan Steam Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele steam washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele steam washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Steam Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele steam washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele Steam Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele steam washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Steam Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest steam washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most steam washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable steam washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele Steam Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest steam washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most steam washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable steam washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-steam" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-steam" onclick="toggleExpand('steam')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele High-Efficiency Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
-                    <h3>Miele High-Efficiency Washer Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>HE Front Load Washers</li>
-                            <li>HE Top Load Washers</li>
-                            <li>Energy Star HE Models</li>
-                            <li>Water-Saving HE Units</li>
-                            <li>Low-Water HE Washers</li>
-                            <li>Eco-Friendly HE Models</li>
-                            <li>Smart HE Washers</li>
-                            <li>Large Capacity HE</li>
-                            <li>Compact HE Washers</li>
-                        </ul>
-                        <div id="expandable-content-he" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-he" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele High-Efficiency Washer Features & Benefits</h4>
-                                <p style="margin-bottom: 12px;"><strong>Miele high-efficiency washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their high-efficiency washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers high-efficiency washer options to match every household need and budget throughout Manhattan.</p>
+ </div>
+ <div id="expandable-fade-steam" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-steam" onclick="toggleExpand('steam')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Miele High-Efficiency Washer repair" loading="lazy" ></div>
+ <h3>Miele High-Efficiency Washer Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>HE Front Load Washers</li>
+ <li>HE Top Load Washers</li>
+ <li>Energy Star HE Models</li>
+ <li>Water-Saving HE Units</li>
+ <li>Low-Water HE Washers</li>
+ <li>Eco-Friendly HE Models</li>
+ <li>Smart HE Washers</li>
+ <li>Large Capacity HE</li>
+ <li>Compact HE Washers</li>
+ </ul>
+ <div id="expandable-content-he" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-he" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Miele High-Efficiency Washer Features & Benefits</h4>
+ <p style="margin-bottom: 12px;"><strong>Miele high-efficiency washer models</strong> represent the pinnacle of home appliance engineering, combining innovative technology with reliable performance that Manhattan homeowners depend on daily. These washers feature advanced components including precision-engineered motors, smart sensors, and durable construction designed to deliver years of trouble-free operation. Miele incorporates cutting-edge features such as intelligent controls, energy-efficient operation, and quiet performance systems that distinguish their high-efficiency washer lineup from competitors. The quality materials and thoughtful engineering in Miele appliances ensure consistent performance while minimizing maintenance requirements. Whether you are looking for basic functionality or premium smart features, Miele offers high-efficiency washer options to match every household need and budget throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele High-Efficiency Washer Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele high-efficiency washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Miele High-Efficiency Washer Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Our certified technicians diagnose and repair all <strong>Miele high-efficiency washer issues</strong> throughout Manhattan. Common problems we encounter include control board failures causing error codes or preventing operation, sensor malfunctions affecting performance accuracy, motor issues resulting in unusual noises or complete failure, and component wear from regular use over time. We also frequently address electrical connection problems, switch and relay failures, seal and gasket deterioration, and mechanical component issues. Our systematic diagnostic approach identifies root causes rather than just symptoms, ensuring repairs address the actual problem the first time. We maintain comprehensive knowledge of Miele-specific error codes, common failure patterns, and model-specific issues accumulated over years of dedicated service throughout Manhattan.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele High-Efficiency Washer Service Details</h4>
-                                <p style="margin-bottom: 12px;">When you schedule <strong>Miele high-efficiency washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Professional Miele High-Efficiency Washer Service Details</h4>
+ <p style="margin-bottom: 12px;">When you schedule <strong>Miele high-efficiency washer repair in Manhattan</strong>, our factory-trained technicians arrive with fully equipped service vehicles carrying diagnostic equipment, common replacement parts, and specialized tools for Miele appliances. We begin every service call with comprehensive diagnostics, checking stored error codes and systematically testing individual components to pinpoint failures accurately. Our technicians follow Miele-recommended repair procedures using genuine replacement parts that meet original equipment specifications. For complex repairs requiring parts ordering, we expedite delivery and schedule prompt follow-up appointments to minimize your downtime. We document all work performed and provide clear explanations of repairs completed, ensuring you understand exactly what was done and why.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan High-Efficiency Washer Service Areas</h4>
-                                <p style="margin-bottom: 12px;">We provide <strong>same-day Miele high-efficiency washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele high-efficiency washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Manhattan High-Efficiency Washer Service Areas</h4>
+ <p style="margin-bottom: 12px;">We provide <strong>same-day Miele high-efficiency washer repair</strong> throughout all Manhattan communities including Midtown, Chelsea, SoHo, Tribeca, Greenwich Village, East Village, Upper East Side, Upper West Side, Harlem, Financial District, Chinatown, Little Italy, NoHo, Nolita, Gramercy, Murray Hill, Kips Bay, Hell's Kitchen, Times Square, Lincoln Square, Morningside Heights, Washington Heights, Inwood, and all surrounding areas. Our technicians service Miele high-efficiency washer units in single-family homes, apartments, condominiums, and multi-family properties throughout Manhattan. We understand Manhattan diverse housing stock and adapt our service approach to each unique installation situation.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele High-Efficiency Washer Maintenance</h4>
-                                <p style="margin-bottom: 12px;">Extend the life of your Miele high-efficiency washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Pro Tips for Miele High-Efficiency Washer Maintenance</h4>
+ <p style="margin-bottom: 12px;">Extend the life of your Miele high-efficiency washer with these professional maintenance recommendations. <strong>Follow the manufacturer maintenance schedule</strong>: Miele provides specific guidelines for cleaning, inspection, and component replacement that optimize performance and longevity. <strong>Keep the appliance clean</strong>: regular cleaning prevents buildup that can affect performance and cause premature component wear. <strong>Address unusual sounds or behaviors promptly</strong>: strange noises, error codes, or performance changes often indicate developing problems that are easier and less expensive to repair early. <strong>Use the appliance as intended</strong>: operating within design specifications prevents stress on components and extends service life. <strong>Schedule annual professional inspection</strong>: our technicians can identify potential issues before they cause failures, saving you from unexpected breakdowns and emergency repairs.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele High-Efficiency Washer Repair Service</h4>
-                                <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest high-efficiency washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most high-efficiency washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable high-efficiency washer service.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Why Choose Our Miele High-Efficiency Washer Repair Service</h4>
+ <p style="margin-bottom: 12px;">Our <strong>Miele-certified technicians</strong> receive ongoing factory training on the latest high-efficiency washer models and repair techniques. We use only genuine Miele replacement parts backed by manufacturer warranties, ensuring repairs meet original equipment specifications. Our service vehicles carry diagnostic equipment specifically designed for Miele appliances, allowing us to read error code histories and test components accurately. We offer transparent pricing with quotes provided before beginning any repair work. Most high-efficiency washer repairs are completed in a single visit because we understand that appliance problems disrupt your daily routine. Our commitment to customer satisfaction has made us the trusted choice for Miele appliance repair throughout Manhattan. Contact us today for fast, reliable high-efficiency washer service.</p>
 
-                            </div>
-                            <div id="expandable-fade-he" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-he" onclick="toggleExpand('he')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-            </div>
+ </div>
+ <div id="expandable-fade-he" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-he" onclick="toggleExpand('he')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ </div>
 
  </div>
  </section>

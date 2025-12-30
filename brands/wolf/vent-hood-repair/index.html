@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1278,386 +1285,386 @@
  <section class="alt">
  <div class="container">
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
-                                     <div class="services-grid">
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Pro Wall Hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf Pro Wall Hood Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>PW302418 - 30" Pro Wall 24" Depth</li>
-                            <li>PW362418 - 36" Pro Wall 24" Depth</li>
-                            <li>PW422418 - 42" Pro Wall 24" Depth</li>
-                            <li>PW482418 - 48" Pro Wall 24" Depth</li>
-                            <li>PW602418 - 60" Pro Wall 24" Depth</li>
-                            <li>PW422718 - 42" Pro Wall 27" Depth</li>
-                            <li>PW482718 - 48" Pro Wall 27" Depth</li>
-                            <li>Internal Blower Options</li>
-                            <li>External Blower Options</li>
-                        </ul>
-                        <div id="expandable-content-pro-wall" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-pro-wall" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Wall Hood Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf pro wall hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ <div class="services-grid">
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Pro Wall Hood repair" loading="lazy" ></div>
+ <h3>Wolf Pro Wall Hood Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>PW302418 - 30" Pro Wall 24" Depth</li>
+ <li>PW362418 - 36" Pro Wall 24" Depth</li>
+ <li>PW422418 - 42" Pro Wall 24" Depth</li>
+ <li>PW482418 - 48" Pro Wall 24" Depth</li>
+ <li>PW602418 - 60" Pro Wall 24" Depth</li>
+ <li>PW422718 - 42" Pro Wall 27" Depth</li>
+ <li>PW482718 - 48" Pro Wall 27" Depth</li>
+ <li>Internal Blower Options</li>
+ <li>External Blower Options</li>
+ </ul>
+ <div id="expandable-content-pro-wall" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-pro-wall" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Wall Hood Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf pro wall hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Pro Wall Hood Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf pro wall hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Pro Wall Hood Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf pro wall hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Pro Wall Hood Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf pro wall hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Pro Wall Hood Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf pro wall hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Wall Hood Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf pro wall hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Wall Hood Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf pro wall hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Pro Wall Hood</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Pro Wall Hood</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Pro Wall Hood Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf pro wall hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Pro Wall Hood Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf pro wall hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-pro-wall" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-pro-wall" onclick="toggleExpand('pro-wall')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Low Profile Wall Hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf Low Profile Wall Hood Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>PW362210 - 36" Low Profile</li>
-                            <li>PW422210 - 42" Low Profile</li>
-                            <li>PW482210 - 48" Low Profile</li>
-                            <li>Reduced Height Design</li>
-                            <li>Fits Under Cabinets</li>
-                            <li>Powerful Airflow Capacity</li>
-                            <li>LED Lighting</li>
-                            <li>Multi-Speed Fan</li>
-                            <li>Stainless Steel Construction</li>
-                        </ul>
-                        <div id="expandable-content-low-profile" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-low-profile" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Low Profile Wall Hood Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf low profile wall hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-pro-wall" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-pro-wall" onclick="toggleExpand('pro-wall')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Low Profile Wall Hood repair" loading="lazy" ></div>
+ <h3>Wolf Low Profile Wall Hood Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>PW362210 - 36" Low Profile</li>
+ <li>PW422210 - 42" Low Profile</li>
+ <li>PW482210 - 48" Low Profile</li>
+ <li>Reduced Height Design</li>
+ <li>Fits Under Cabinets</li>
+ <li>Powerful Airflow Capacity</li>
+ <li>LED Lighting</li>
+ <li>Multi-Speed Fan</li>
+ <li>Stainless Steel Construction</li>
+ </ul>
+ <div id="expandable-content-low-profile" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-low-profile" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Low Profile Wall Hood Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf low profile wall hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Low Profile Wall Hood Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf low profile wall hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Low Profile Wall Hood Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf low profile wall hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Low Profile Wall Hood Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf low profile wall hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Low Profile Wall Hood Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf low profile wall hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Low Profile Wall Hood Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf low profile wall hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Low Profile Wall Hood Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf low profile wall hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Low Profile Wall Hood</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Low Profile Wall Hood</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Low Profile Wall Hood Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf low profile wall hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Low Profile Wall Hood Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf low profile wall hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-low-profile" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-low-profile" onclick="toggleExpand('low-profile')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Pro Island Hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf Pro Island Hood Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>PI363418 - 36" Pro Island</li>
-                            <li>PI423418 - 42" Pro Island</li>
-                            <li>PI483418 - 48" Pro Island</li>
-                            <li>Ceiling-Mounted Installation</li>
-                            <li>Four-Sided Glass and Steel</li>
-                            <li>Internal Blower Standard</li>
-                            <li>Remote Blower Compatible</li>
-                            <li>LED Perimeter Lighting</li>
-                            <li>Multi-Speed Controls</li>
-                        </ul>
-                        <div id="expandable-content-island" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-island" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Island Hood Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf pro island hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-low-profile" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-low-profile" onclick="toggleExpand('low-profile')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Pro Island Hood repair" loading="lazy" ></div>
+ <h3>Wolf Pro Island Hood Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>PI363418 - 36" Pro Island</li>
+ <li>PI423418 - 42" Pro Island</li>
+ <li>PI483418 - 48" Pro Island</li>
+ <li>Ceiling-Mounted Installation</li>
+ <li>Four-Sided Glass and Steel</li>
+ <li>Internal Blower Standard</li>
+ <li>Remote Blower Compatible</li>
+ <li>LED Perimeter Lighting</li>
+ <li>Multi-Speed Controls</li>
+ </ul>
+ <div id="expandable-content-island" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-island" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Island Hood Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf pro island hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Pro Island Hood Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf pro island hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Pro Island Hood Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf pro island hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Pro Island Hood Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf pro island hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Pro Island Hood Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf pro island hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Island Hood Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf pro island hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Pro Island Hood Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf pro island hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Pro Island Hood</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Pro Island Hood</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Pro Island Hood Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf pro island hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Pro Island Hood Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf pro island hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-island" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-island" onclick="toggleExpand('island')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Ceiling Mounted Ventilation repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf Ceiling Mounted Ventilation Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>VC36W - 36" Ceiling White</li>
-                            <li>VC42W - 42" Ceiling White</li>
-                            <li>VC48W - 48" Ceiling White</li>
-                            <li>VC36S - 36" Ceiling Stainless</li>
-                            <li>VC42S - 42" Ceiling Stainless</li>
-                            <li>VC48S - 48" Ceiling Stainless</li>
-                            <li>Flush Ceiling Installation</li>
-                            <li>Recessed Design</li>
-                            <li>Remote Blower Required</li>
-                        </ul>
-                        <div id="expandable-content-ceiling" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-ceiling" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Ceiling Mounted Ventilation Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf ceiling mounted ventilation repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-island" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-island" onclick="toggleExpand('island')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Ceiling Mounted Ventilation repair" loading="lazy" ></div>
+ <h3>Wolf Ceiling Mounted Ventilation Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>VC36W - 36" Ceiling White</li>
+ <li>VC42W - 42" Ceiling White</li>
+ <li>VC48W - 48" Ceiling White</li>
+ <li>VC36S - 36" Ceiling Stainless</li>
+ <li>VC42S - 42" Ceiling Stainless</li>
+ <li>VC48S - 48" Ceiling Stainless</li>
+ <li>Flush Ceiling Installation</li>
+ <li>Recessed Design</li>
+ <li>Remote Blower Required</li>
+ </ul>
+ <div id="expandable-content-ceiling" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-ceiling" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Ceiling Mounted Ventilation Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf ceiling mounted ventilation repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Ceiling Mounted Ventilation Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf ceiling mounted ventilation issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Ceiling Mounted Ventilation Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf ceiling mounted ventilation issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Ceiling Mounted Ventilation Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf ceiling mounted ventilation</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Ceiling Mounted Ventilation Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf ceiling mounted ventilation</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Ceiling Mounted Ventilation Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf ceiling mounted ventilation units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Ceiling Mounted Ventilation Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf ceiling mounted ventilation units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Ceiling Mounted Ventilation</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Ceiling Mounted Ventilation</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Ceiling Mounted Ventilation Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf ceiling mounted ventilation</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Ceiling Mounted Ventilation Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf ceiling mounted ventilation</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-ceiling" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-ceiling" onclick="toggleExpand('ceiling')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Hood Insert repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf Hood Insert Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>VI36S - 36" Ventilation Insert</li>
-                            <li>VI42S - 42" Ventilation Insert</li>
-                            <li>VI48S - 48" Ventilation Insert</li>
-                            <li>Custom Hood Installations</li>
-                            <li>Fits Inside Cabinetry</li>
-                            <li>Internal or External Blower</li>
-                            <li>Powerful Extraction</li>
-                            <li>LED Lighting</li>
-                            <li>Multi-Speed Fan Control</li>
-                        </ul>
-                        <div id="expandable-content-insert" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-insert" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Hood Insert Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf hood insert repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-ceiling" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-ceiling" onclick="toggleExpand('ceiling')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Hood Insert repair" loading="lazy" ></div>
+ <h3>Wolf Hood Insert Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>VI36S - 36" Ventilation Insert</li>
+ <li>VI42S - 42" Ventilation Insert</li>
+ <li>VI48S - 48" Ventilation Insert</li>
+ <li>Custom Hood Installations</li>
+ <li>Fits Inside Cabinetry</li>
+ <li>Internal or External Blower</li>
+ <li>Powerful Extraction</li>
+ <li>LED Lighting</li>
+ <li>Multi-Speed Fan Control</li>
+ </ul>
+ <div id="expandable-content-insert" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-insert" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Hood Insert Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf hood insert repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Hood Insert Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf hood insert issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Hood Insert Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf hood insert issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Hood Insert Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf hood insert</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Hood Insert Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf hood insert</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Hood Insert Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf hood insert units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Hood Insert Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf hood insert units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Hood Insert</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Hood Insert</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Hood Insert Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf hood insert</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Hood Insert Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf hood insert</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-insert" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-insert" onclick="toggleExpand('insert')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Blower Options repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf Blower Options Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>814423 - 1200 CFM Internal Blower</li>
-                            <li>600 CFM Internal Blower</li>
-                            <li>300 CFM Internal Blower</li>
-                            <li>Remote Inline Blower</li>
-                            <li>External Roof Blower</li>
-                            <li>External Wall Blower</li>
-                            <li>Variable Speed Controls</li>
-                            <li>Quiet Operation Designs</li>
-                            <li>High Capacity Options</li>
-                        </ul>
-                        <div id="expandable-content-blower" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-blower" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Blower Options Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf blower options repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-insert" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-insert" onclick="toggleExpand('insert')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf Blower Options repair" loading="lazy" ></div>
+ <h3>Wolf Blower Options Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>814423 - 1200 CFM Internal Blower</li>
+ <li>600 CFM Internal Blower</li>
+ <li>300 CFM Internal Blower</li>
+ <li>Remote Inline Blower</li>
+ <li>External Roof Blower</li>
+ <li>External Wall Blower</li>
+ <li>Variable Speed Controls</li>
+ <li>Quiet Operation Designs</li>
+ <li>High Capacity Options</li>
+ </ul>
+ <div id="expandable-content-blower" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-blower" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Blower Options Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf blower options repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Blower Options Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf blower options issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf Blower Options Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf blower options issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Blower Options Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf blower options</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf Blower Options Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf blower options</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Blower Options Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf blower options units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf Blower Options Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf blower options units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Blower Options</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf Blower Options</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Blower Options Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf blower options</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf Blower Options Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf blower options</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-blower" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-blower" onclick="toggleExpand('blower')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf 30-Inch Range Hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf 30-Inch Range Hood Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>PW302418 - Pro Wall Hood</li>
-                            <li>30" Custom Insert Options</li>
-                            <li>600-1200 CFM Capacity</li>
-                            <li>Fits 30" Rangetops</li>
-                            <li>Wall Mount Installation</li>
-                            <li>LED Task Lighting</li>
-                            <li>Dishwasher-Safe Filters</li>
-                            <li>Multiple Speed Settings</li>
-                            <li>Stainless Steel Finish</li>
-                        </ul>
-                        <div id="expandable-content-30inch-hood" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-30inch-hood" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 30-Inch Range Hood Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf 30-inch range hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-blower" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-blower" onclick="toggleExpand('blower')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf 30-Inch Range Hood repair" loading="lazy" ></div>
+ <h3>Wolf 30-Inch Range Hood Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>PW302418 - Pro Wall Hood</li>
+ <li>30" Custom Insert Options</li>
+ <li>600-1200 CFM Capacity</li>
+ <li>Fits 30" Rangetops</li>
+ <li>Wall Mount Installation</li>
+ <li>LED Task Lighting</li>
+ <li>Dishwasher-Safe Filters</li>
+ <li>Multiple Speed Settings</li>
+ <li>Stainless Steel Finish</li>
+ </ul>
+ <div id="expandable-content-30inch-hood" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-30inch-hood" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 30-Inch Range Hood Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf 30-inch range hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf 30-Inch Range Hood Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf 30-inch range hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf 30-Inch Range Hood Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf 30-inch range hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf 30-Inch Range Hood Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf 30-inch range hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf 30-Inch Range Hood Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf 30-inch range hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 30-Inch Range Hood Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf 30-inch range hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 30-Inch Range Hood Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf 30-inch range hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf 30-Inch Range Hood</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf 30-Inch Range Hood</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf 30-Inch Range Hood Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf 30-inch range hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf 30-Inch Range Hood Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf 30-inch range hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-30inch-hood" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-30inch-hood" onclick="toggleExpand('30inch-hood')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf 36-Inch Range Hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf 36-Inch Range Hood Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>PW362418 - Pro Wall 24" Depth</li>
-                            <li>PW362210 - Low Profile</li>
-                            <li>PI363418 - Pro Island</li>
-                            <li>VC36W/S - Ceiling Mount</li>
-                            <li>VI36S - Insert</li>
-                            <li>Fits 36" Rangetops</li>
-                            <li>Multiple Style Options</li>
-                            <li>Various Blower Capacities</li>
-                            <li>LED Lighting Standard</li>
-                        </ul>
-                        <div id="expandable-content-36inch-hood" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-36inch-hood" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 36-Inch Range Hood Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf 36-inch range hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-30inch-hood" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-30inch-hood" onclick="toggleExpand('30inch-hood')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf 36-Inch Range Hood repair" loading="lazy" ></div>
+ <h3>Wolf 36-Inch Range Hood Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>PW362418 - Pro Wall 24" Depth</li>
+ <li>PW362210 - Low Profile</li>
+ <li>PI363418 - Pro Island</li>
+ <li>VC36W/S - Ceiling Mount</li>
+ <li>VI36S - Insert</li>
+ <li>Fits 36" Rangetops</li>
+ <li>Multiple Style Options</li>
+ <li>Various Blower Capacities</li>
+ <li>LED Lighting Standard</li>
+ </ul>
+ <div id="expandable-content-36inch-hood" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-36inch-hood" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 36-Inch Range Hood Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf 36-inch range hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf 36-Inch Range Hood Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf 36-inch range hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf 36-Inch Range Hood Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf 36-inch range hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf 36-Inch Range Hood Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf 36-inch range hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf 36-Inch Range Hood Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf 36-inch range hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 36-Inch Range Hood Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf 36-inch range hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 36-Inch Range Hood Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf 36-inch range hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf 36-Inch Range Hood</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf 36-Inch Range Hood</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf 36-Inch Range Hood Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf 36-inch range hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf 36-Inch Range Hood Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf 36-inch range hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-36inch-hood" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-36inch-hood" onclick="toggleExpand('36inch-hood')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf 48-Inch Range Hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
-                    <h3>Wolf 48-Inch Range Hood Repair</h3>
-                    <div class="service-types">
-                        <h4>We Service All Types:</h4>
-                        <ul>
-                            <li>PW482418 - Pro Wall 24" Depth</li>
-                            <li>PW482718 - Pro Wall 27" Depth</li>
-                            <li>PW482210 - Low Profile</li>
-                            <li>PI483418 - Pro Island</li>
-                            <li>VC48W/S - Ceiling Mount</li>
-                            <li>VI48S - Insert</li>
-                            <li>High-Capacity Blowers</li>
-                            <li>Fits 48" Rangetops</li>
-                            <li>Professional Kitchen Standard</li>
-                        </ul>
-                        <div id="expandable-content-48inch-hood" style="position: relative; margin-top: 15px;">
-                            <div id="expandable-text-48inch-hood" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 48-Inch Range Hood Repair Services</h4>
-                                <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf 48-inch range hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
+ </div>
+ <div id="expandable-fade-36inch-hood" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-36inch-hood" onclick="toggleExpand('36inch-hood')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ <div class="service">
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Wolf 48-Inch Range Hood repair" loading="lazy" ></div>
+ <h3>Wolf 48-Inch Range Hood Repair</h3>
+ <div class="service-types">
+ <h4>We Service All Types:</h4>
+ <ul>
+ <li>PW482418 - Pro Wall 24" Depth</li>
+ <li>PW482718 - Pro Wall 27" Depth</li>
+ <li>PW482210 - Low Profile</li>
+ <li>PI483418 - Pro Island</li>
+ <li>VC48W/S - Ceiling Mount</li>
+ <li>VI48S - Insert</li>
+ <li>High-Capacity Blowers</li>
+ <li>Fits 48" Rangetops</li>
+ <li>Professional Kitchen Standard</li>
+ </ul>
+ <div id="expandable-content-48inch-hood" style="position: relative; margin-top: 15px;">
+ <div id="expandable-text-48inch-hood" style="max-height: 80px; overflow: hidden; transition: max-height 0.4s ease; line-height: 1.7; color: #444; font-size: 14px;">
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 48-Inch Range Hood Repair Services</h4>
+ <p style="margin-bottom: 12px;">Our technicians provide <strong>Wolf 48-inch range hood repair</strong> for homeowners throughout Manhattan. Proper ventilation is essential when using high-output Wolf cooking equipment—these hoods are engineered to handle the heat and smoke generated by professional-style ranges and rangetops. When ventilation fails, your kitchen quickly becomes uncomfortable and cooking residue accumulates on surfaces. We service all Wolf ventilation products including wall hoods, island hoods, ceiling-mounted units, and custom inserts with internal or remote blowers.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf 48-Inch Range Hood Problems We Repair</h4>
-                                <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf 48-inch range hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Common Wolf 48-Inch Range Hood Problems We Repair</h4>
+ <p style="margin-bottom: 12px;">Motor failure is the most common <strong>Wolf 48-inch range hood issue</strong> we encounter. Blower motors eventually wear out, especially in kitchens where cooking happens frequently. Signs include reduced airflow, unusual noises, or complete failure to operate. We also repair fan speed controls that malfunction, lights that don't work, electronic control panels with erratic behavior, and remote blowers that fail. Ductwork issues sometimes cause poor performance even when the hood functions properly—we can identify whether problems originate in the hood or the exhaust system. Grease buildup in filters and blower housings reduces efficiency over time and occasionally causes complete shutdown.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf 48-Inch Range Hood Units</h4>
-                                <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf 48-inch range hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">How We Service Wolf 48-Inch Range Hood Units</h4>
+ <p style="margin-bottom: 12px;">Ventilation repair begins with testing airflow and motor operation. We check that the blower runs at all speeds, measure actual air movement, inspect the ductwork connection, and test all controls and lighting. For <strong>Wolf 48-inch range hood</strong> units with remote blowers, we trace the problem to determine whether the issue is in the hood, the wiring, or the remote unit itself. We provide clear diagnosis and estimates before starting repairs. Our technicians carry common Wolf ventilation parts including motors, switches, lights, and controls. After repairs, we verify proper operation at all speed settings.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 48-Inch Range Hood Service in Manhattan</h4>
-                                <p style="margin-bottom: 12px;">We repair <strong>Wolf 48-inch range hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Wolf 48-Inch Range Hood Service in Manhattan</h4>
+ <p style="margin-bottom: 12px;">We repair <strong>Wolf 48-inch range hood units</strong> throughout Manhattan. Wolf ventilation equipment appears in kitchens across Upper East Side, Fort George, Murray Hill, Tudor City, Flatiron, Manhattan, Inwood, Greenwich Village, and surrounding communities. Many installations pair Wolf hoods with Wolf ranges or rangetops as complete cooking systems. Island installations require ceiling support and ductwork routing that differs from wall-mounted units. Custom insert installations hide ventilation inside decorative cabinetry. Whatever your Wolf ventilation configuration, we have the expertise to service it properly.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf 48-Inch Range Hood</h4>
-                                <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Maintaining Your Wolf 48-Inch Range Hood</h4>
+ <p style="margin-bottom: 12px;">Regular maintenance keeps your ventilation effective. Clean or replace grease filters monthly if you cook frequently—clogged filters dramatically reduce airflow and force motors to work harder. Most Wolf filters are dishwasher safe. Wipe exterior surfaces to remove cooking residue. Periodically check that the duct connection is secure and the damper opens when the hood operates. Listen for changes in motor sound that might indicate bearing wear. If airflow seems reduced even with clean filters, the ductwork may need cleaning or the motor may be failing. Annual professional inspection catches problems before they cause complete failure.</p>
 
-                                <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf 48-Inch Range Hood Repair</h4>
-                                <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf 48-inch range hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
+ <h4 style="color: var(--blue); margin: 15px 0 10px;">Expert Wolf 48-Inch Range Hood Repair</h4>
+ <p style="margin-bottom: 12px;">Adequate ventilation matters for kitchen comfort, air quality, and protecting your home from cooking residue. Wolf ventilation equipment is built for heavy use but eventually needs service. Our technicians understand Wolf products and provide repairs that restore full function. We work on all Wolf ventilation configurations from compact wall hoods to large island installations with remote blowers. For Manhattan homeowners who invested in complete Wolf cooking systems, we offer the specialized service your equipment deserves. When your <strong>Wolf 48-inch range hood</strong> needs attention, we respond promptly to get your kitchen ventilation working properly again.</p>
 
-                            </div>
-                            <div id="expandable-fade-48inch-hood" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
-                        </div>
-                        <button id="expandable-btn-48inch-hood" onclick="toggleExpand('48inch-hood')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
-                    </div>
-                </div>
-            </div>
+ </div>
+ <div id="expandable-fade-48inch-hood" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, rgba(0,48,135,0.05)); pointer-events: none;" aria-hidden="true"></div>
+ </div>
+ <button id="expandable-btn-48inch-hood" onclick="toggleExpand('48inch-hood')" aria-expanded="false" style="display: block; margin: 10px auto 0; background: none; border: none; color: var(--blue); font-size: 14px; font-weight: 600; cursor: pointer; padding: 8px 15px;">+ Show More</button>
+ </div>
+ </div>
+ </div>
 
 
 

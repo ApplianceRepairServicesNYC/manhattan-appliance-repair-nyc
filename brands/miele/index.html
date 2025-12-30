@@ -46,25 +46,25 @@
  "longitude": -73.9867
  },
  "areaServed": [
-    {"@type": "Neighborhood", "name": "Midtown"},
-    {"@type": "Neighborhood", "name": "Chelsea"},
-    {"@type": "Neighborhood", "name": "SoHo"},
-    {"@type": "Neighborhood", "name": "Tribeca"},
-    {"@type": "Neighborhood", "name": "Greenwich Village"},
-    {"@type": "Neighborhood", "name": "East Village"},
-    {"@type": "Neighborhood", "name": "Upper East Side"},
-    {"@type": "Neighborhood", "name": "Upper West Side"},
-    {"@type": "Neighborhood", "name": "Harlem"},
-    {"@type": "Neighborhood", "name": "Financial District"},
-    {"@type": "Neighborhood", "name": "Chinatown"},
-    {"@type": "Neighborhood", "name": "Little Italy"},
-    {"@type": "Neighborhood", "name": "Gramercy"},
-    {"@type": "Neighborhood", "name": "Murray Hill"},
-    {"@type": "Neighborhood", "name": "Hell's Kitchen"},
-    {"@type": "Neighborhood", "name": "Times Square"},
-    {"@type": "Neighborhood", "name": "Washington Heights"},
-    {"@type": "Neighborhood", "name": "Inwood"}
-  ],
+ {"@type": "Neighborhood", "name": "Midtown"},
+ {"@type": "Neighborhood", "name": "Chelsea"},
+ {"@type": "Neighborhood", "name": "SoHo"},
+ {"@type": "Neighborhood", "name": "Tribeca"},
+ {"@type": "Neighborhood", "name": "Greenwich Village"},
+ {"@type": "Neighborhood", "name": "East Village"},
+ {"@type": "Neighborhood", "name": "Upper East Side"},
+ {"@type": "Neighborhood", "name": "Upper West Side"},
+ {"@type": "Neighborhood", "name": "Harlem"},
+ {"@type": "Neighborhood", "name": "Financial District"},
+ {"@type": "Neighborhood", "name": "Chinatown"},
+ {"@type": "Neighborhood", "name": "Little Italy"},
+ {"@type": "Neighborhood", "name": "Gramercy"},
+ {"@type": "Neighborhood", "name": "Murray Hill"},
+ {"@type": "Neighborhood", "name": "Hell's Kitchen"},
+ {"@type": "Neighborhood", "name": "Times Square"},
+ {"@type": "Neighborhood", "name": "Washington Heights"},
+ {"@type": "Neighborhood", "name": "Inwood"}
+ ],
  "openingHoursSpecification": [
  {
  "@type": "OpeningHoursSpecification",
@@ -128,25 +128,25 @@
  box-sizing: border-box;
  }
  .logo-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+ display: inline-flex;
+ align-items: center;
+ text-decoration: none;
 }
 .logo-link:hover {
-    opacity: 0.9;
+ opacity: 0.9;
 }
 .logo-svg {
-    height: 50px;
-    width: auto;
+ height: 50px;
+ width: auto;
 }
 @media (max-width: 768px) {
 .logo-svg {
-    height: 40px;
+ height: 40px;
 }
 }
 @media (max-width: 480px) {
 .logo-svg {
-    height: 32px;
+ height: 32px;
 }
 }
  .nav-wrapper {
@@ -496,24 +496,31 @@
  margin-bottom: 20px;
  color: var(--blue);
  transition: color .3s;
+ width: 52px;
+ height: 52px;
  min-height: 52px;
+ max-height: 52px;
  display: flex;
  align-items: center;
  justify-content: center;
  overflow: hidden;
+ margin-left: auto;
+ margin-right: auto;
  }
-    .service-icon img {
-      width: 52px;
-      height: 52px;
-      object-fit: contain;
-    }
-        .service h3 {
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-        }
+ .service-icon img {
+ width: 52px;
+ height: 52px;
+ min-width: 52px;
+ min-height: 52px;
+ object-fit: contain;
+ }
+ .service h3 {
+ min-height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ }
  .service:hover .service-icon {
  color: var(--red);
  }
@@ -1024,8 +1031,8 @@
  }
  }
  </style>
-    <link rel="preconnect" href="https://static.elfsight.com">
-    <link rel="dns-prefetch" href="https://static.elfsight.com">
+ <link rel="preconnect" href="https://static.elfsight.com">
+ <link rel="dns-prefetch" href="https://static.elfsight.com">
 </head>
 <body>
  <header>
@@ -1277,7 +1284,7 @@
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Miele Service</h2>
  <div class="services-grid">
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Washer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🧺';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/washer.webp" alt="Washer repair" loading="lazy" ></div>
  <h3>Miele Washer Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1337,7 +1344,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/dryer.webp" alt="Dryer repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='👕';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/dryer.webp" alt="Dryer repair" loading="lazy" ></div>
  <h3>Miele Dryer Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1397,7 +1404,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Oven repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍳';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Oven repair" loading="lazy" ></div>
  <h3>Miele Oven & Range Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1457,7 +1464,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/refrigerator.webp" alt="Refrigerator repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='❄️';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/refrigerator.webp" alt="Refrigerator repair" loading="lazy" ></div>
  <h3>Miele Refrigerator Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1516,7 +1523,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Dishwasher repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍽️';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/dishwasher.webp" alt="Dishwasher repair" loading="lazy" ></div>
  <h3>Miele Dishwasher Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1576,7 +1583,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Cooktop repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🔥';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Cooktop repair" loading="lazy" ></div>
  <h3>Cooktop Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1636,7 +1643,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Microwave repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='📻';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Microwave repair" loading="lazy" ></div>
  <h3>Microwave Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1696,7 +1703,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/wine-cooler.webp" alt="Wine cooler repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='🍷';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/wine-cooler.webp" alt="Wine cooler repair" loading="lazy" ></div>
  <h3>Wine Cooler Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1756,7 +1763,7 @@
  </div>
  </div>
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" onerror="this.style.display='none';this.parentElement.textContent='💨';" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Range hood repair" loading="lazy" ></div>
  <h3>Hood Vent Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>

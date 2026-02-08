@@ -1160,7 +1160,7 @@
  <div class="container">
  <h1>Oven Repair<br>Washington Heights, NY</h1>
  <p>Same-Day Service • Experienced Technicians • Washington Heights, NY</p>
- <button class="btn" id="heroCallNow">Request Service Today</button>
+ <button class="btn" id="heroScheduleBtn">Schedule Your Repair</button>
  </div>
  </section>
 
@@ -1780,7 +1780,17 @@
  
  setupCallButton(document.getElementById('navCallNow'));
  setupCallButton(document.getElementById('formCallNow'));
- setupCallButton(document.getElementById('heroCallNow'));
+ // Hero Schedule Button - scroll to form and open it
+ const heroScheduleBtn = document.getElementById('heroScheduleBtn');
+ if (heroScheduleBtn) {
+ heroScheduleBtn.addEventListener('click', function() {
+ const formContainer = document.getElementById('scheduleFormContainer');
+ if (formContainer) {
+ formContainer.classList.add('active');
+ formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }
+ });
+ }
  
  const cfContactForm = document.getElementById('cfContactForm');
  if (cfContactForm) {

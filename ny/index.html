@@ -27,16 +27,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600;700&family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
  <!-- Font Awesome -->
 <!-- EmailJS -->
- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
- <script>
- (function() {
- try {
- emailjs.init({ publicKey: "zfCrLmZU8eK9CuZcs" });
- } catch (error) {
- console.error("Failed to initialize EmailJS:", error);
- }
- })();
- </script>
+  
  <!-- LocalBusiness Schema -->
  <script type="application/ld+json">
  {
@@ -1763,10 +1754,14 @@
  e.preventDefault();
  console.log('Form submitted (mobile:', window.innerWidth <= 768, ')');
  const email = this.user_email.value.trim();
- emailjs.sendForm('service_emxksio', 'template_tmexlql', this)
+ fetch('https://formsubmit.co/ajax/insuranceappliance@gmail.com', {
+ method: 'POST',
+ body: new FormData(this)
+ })
+ .then(response => response.json())
  .then(() => {
  console.log('Form submission successful, email:', email);
- this.reset();
+ cfContactForm.reset();
  document.getElementById('cfContactFormSection').classList.remove('active');
  document.getElementById('successMessage').innerHTML = `
  <strong>Thank you!</strong><br><br>

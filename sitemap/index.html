@@ -204,6 +204,74 @@ display: block;
 color: white;
 }
 
+
+.submenu-toggle {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: 700;
+background: rgba(255, 255, 255, 0.15);
+margin: 14px 20px;
+border-radius: 8px;
+padding: 22px 24px;
+cursor: pointer;
+box-sizing: border-box;
+}
+.submenu-toggle:after {
+content: "›";
+transition: transform .3s;
+font-size: 18px;
+}
+.submenu-toggle:hover:after {
+transform: rotate(90deg);
+}
+.additional-submenu,
+.service-areas-submenu {
+max-height: 0;
+overflow-y: auto;
+transition: max-height 0.8s ease;
+background: rgba(0, 0, 0, 0.2);
+margin: 0 20px 14px;
+border-radius: 8px;
+box-sizing: border-box;
+white-space: normal;
+-webkit-overflow-scrolling: touch;
+}
+.additional-submenu li,
+.service-areas-submenu li {
+padding: 20px 44px;
+color: #eee;
+font-size: 17px;
+line-height: 2.1;
+margin: 12px 0;
+transition: all .3s;
+box-sizing: border-box;
+cursor: pointer;
+list-style: none;
+}
+.additional-submenu li:hover,
+.additional-submenu li:active,
+.service-areas-submenu li:hover,
+.service-areas-submenu li:active {
+background: var(--red);
+color: white;
+padding-left: 54px;
+}
+.service-areas-submenu li a {
+color: #eee;
+text-decoration: none;
+display: block;
+width: 100%;
+height: 100%;
+transition: all .3s;
+cursor: pointer;
+pointer-events: auto;
+}
+.service-areas-submenu li:hover a,
+.service-areas-submenu li:active a {
+color: white;
+}
+
 /* Main Content */
 main {
 padding: 120px 0 40px;
@@ -411,31 +479,115 @@ align-items: center;
 </head>
 <body>
 <header>
-<div class="container nav-wrapper">
-<a href="https://manhattanappliancerepairnyc.com/" class="logo-link" aria-label="Manhattan Appliance Repair Homepage"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 55" class="logo-svg"><defs><linearGradient id="fridgeGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#e8ecf1"/><stop offset="100%" style="stop-color:#c5cdd8"/></linearGradient><linearGradient id="badgeGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#3b6cb5"/><stop offset="100%" style="stop-color:#1e3a6e"/></linearGradient></defs><circle cx="27" cy="27.5" r="25" fill="url(#badgeGrad)" stroke="#5a8ad4" stroke-width="2"/><rect x="14" y="8" width="22" height="38" rx="2" fill="url(#fridgeGrad)" stroke="#8896a7" stroke-width="1"/><rect x="15" y="9" width="20" height="12" rx="1" fill="#f5f7fa" stroke="#a0aec0" stroke-width="0.5"/><rect x="32" y="12" width="2" height="6" rx="0.5" fill="#6b7c8f"/><rect x="15" y="23" width="20" height="22" rx="1" fill="#f5f7fa" stroke="#a0aec0" stroke-width="0.5"/><rect x="32" y="28" width="2" height="12" rx="0.5" fill="#6b7c8f"/><g transform="translate(6, 20) rotate(-30)"><rect x="0" y="8" width="4" height="18" rx="1" fill="#f97316"/><path d="M-2 4 L2 0 L6 4 L6 10 L4 10 L4 7 L2 5 L0 7 L0 10 L-2 10 Z" fill="#71717a"/></g><text x="58" y="24" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.5">MANHATTAN</text><text x="58" y="43" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#f97316" letter-spacing="1.5">APPLIANCE REPAIR</text></svg></a>
-<div class="nav-right">
-<div class="services-menu" id="servicesMenu">
-<div class="services-btn" id="servicesToggle">Services ▾</div>
-<ul class="services-dropdown" id="servicesDropdown">
-<button class="dropdown-close-btn" id="dropdownCloseBtn" aria-label="Close">×</button>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/washer-repair/">Washer Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/dryer-repair/">Dryer Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/refrigerator-repair/">Refrigerator Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/dishwasher-repair/">Dishwasher Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/oven-repair/">Oven & Range Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/cooktop-repair/">Cooktop Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/microwave-repair/">Microwave Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/appliances/wine-cooler-repair/">Wine Cooler Repair</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/brands/">Brands We Service</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/ny/">Service Areas</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/about/">About Us</a></li>
-<li><a href="https://manhattanappliancerepairnyc.com/contact/">Contact Us</a></li>
-</ul>
+ <div class="container nav-wrapper">
+ <a href="https://manhattanappliancerepairnyc.com/" class="logo-link" aria-label="Return to Manhattan Appliance Repair Homepage"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 55" class="logo-svg"><defs><linearGradient id="fridgeGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#e8ecf1"/><stop offset="100%" style="stop-color:#c5cdd8"/></linearGradient><linearGradient id="badgeGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#3b6cb5"/><stop offset="100%" style="stop-color:#1e3a6e"/></linearGradient></defs><!-- Badge circle --><circle cx="27" cy="27.5" r="25" fill="url(#badgeGrad)" stroke="#5a8ad4" stroke-width="2"/><!-- Refrigerator body --><rect x="14" y="8" width="22" height="38" rx="2" fill="url(#fridgeGrad)" stroke="#8896a7" stroke-width="1"/><!-- Freezer door --><rect x="15" y="9" width="20" height="12" rx="1" fill="#f5f7fa" stroke="#a0aec0" stroke-width="0.5"/><!-- Freezer handle --><rect x="32" y="12" width="2" height="6" rx="0.5" fill="#6b7c8f"/><!-- Fridge door --><rect x="15" y="23" width="20" height="22" rx="1" fill="#f5f7fa" stroke="#a0aec0" stroke-width="0.5"/><!-- Fridge handle --><rect x="32" y="28" width="2" height="12" rx="0.5" fill="#6b7c8f"/><!-- Wrench tool --><g transform="translate(6, 20) rotate(-30)"><rect x="0" y="8" width="4" height="18" rx="1" fill="#f97316"/><path d="M-2 4 L2 0 L6 4 L6 10 L4 10 L4 7 L2 5 L0 7 L0 10 L-2 10 Z" fill="#71717a"/></g><!-- Text --><text x="58" y="24" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.5">MANHATTAN</text><text x="58" y="43" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#f97316" letter-spacing="1.5">APPLIANCE REPAIR</text></svg></a>
+ <div class="nav-right">
+ <div class="services-menu" id="servicesMenu">
+ <div class="services-btn" id="servicesToggle">Services</div>
+ <ul class="services-dropdown" id="servicesDropdown">
+ <button class="dropdown-close-btn" id="dropdownCloseBtn" aria-label="Close Services Menu">×</button>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/washer-repair/" aria-label="Washer Repair">Washer Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/dryer-repair/" aria-label="Dryer Repair">Dryer Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/refrigerator-repair/" aria-label="Refrigerator Repair">Refrigerator Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/dishwasher-repair/" aria-label="Dishwasher Repair">Dishwasher Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/oven-repair/" aria-label="Oven & Range Repair">Oven & Range Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/cooktop-repair/" aria-label="Cooktop Repair">Cooktop Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/microwave-repair/" aria-label="Microwave Repair">Microwave Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/wine-cooler-repair/" aria-label="Wine Cooler Repair">Wine Cooler Repair</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/appliances/installation-maintenance/" aria-label="Installation & Maintenance">Installation & Maintenance</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/" aria-label="All Appliances Repair">All Appliances</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/reviews/" aria-label="Customer Reviews">★ Reviews</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/brands/" aria-label="Brands We Service">Brands We Service</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/about/" aria-label="About Us">About Us</a></li>
+ <li><a href="https://manhattanappliancerepairnyc.com/contact/" aria-label="Contact Us">Contact Us</a></li>
+ <li class="submenu-toggle" id="additionalToggle">Additional Services</li>
+ <div class="additional-submenu" id="additionalSubmenu">
+ <li>Installation, Repair & Maintenance</li>
+ <li>Refrigerator Compressor & Refrigerant Service</li>
+ <li>Appliance Performance Optimization</li>
+ <li>Appliance Relocation & Setup Assistance</li>
+ <li>Smart Appliance Connectivity Support</li>
+ <li>Professional Deep Cleaning Services</li>
+ <li>Energy Efficiency Upgrades & Optimization</li>
+ <li>Noise & Vibration Reduction Services</li>
+ <li>Commercial & Multi-Unit Appliance Services</li>
+ <li>Recalls & Safety Compliance</li>
+ <li>EPA Section 608 Certification</li>
+ <li>Appliance Warranty & Extended Service Plans</li>
+ </div>
+ <li class="submenu-toggle" id="serviceAreasToggle">Service Areas</li>
+ <div class="service-areas-submenu" id="serviceAreasSubmenu">
+<li><a href="https://manhattanappliancerepairnyc.com/ny/alphabet-city/">Alphabet City</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/battery-park-city/">Battery Park City</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/bloomingdale/">Bloomingdale</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/bowery/">Bowery</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/bryant-park/">Bryant Park</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/carnegie-hill/">Carnegie Hill</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/central-harlem/">Central Harlem</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/central-park-south/">Central Park South</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/chelsea/">Chelsea</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/chinatown/">Chinatown</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/civic-center/">Civic Center</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/columbus-circle/">Columbus Circle</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/east-harlem/">East Harlem</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/east-village/">East Village</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/financial-district/">Financial District</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/flatiron-district/">Flatiron District</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/fort-george/">Fort George</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/garment-district/">Garment District</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/gramercy/">Gramercy</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/greenwich-village/">Greenwich Village</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/hamilton-heights/">Hamilton Heights</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/harlem/">Harlem</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/hells-kitchen/">Hell's Kitchen</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/herald-square/">Herald Square</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/hudson-heights/">Hudson Heights</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/hudson-square/">Hudson Square</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/hudson-yards/">Hudson Yards</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/inwood/">Inwood</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/kips-bay/">Kips Bay</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/koreatown/">Koreatown</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/lenox-hill/">Lenox Hill</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/lincoln-square/">Lincoln Square</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/little-italy/">Little Italy</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/lower-east-side/">Lower East Side</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/madison-square/">Madison Square</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/manhattan-valley/">Manhattan Valley</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/manhattanville/">Manhattanville</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/marble-hill/">Marble Hill</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/midtown-east/">Midtown East</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/midtown-west/">Midtown West</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/morningside-heights/">Morningside Heights</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/murray-hill/">Murray Hill</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/noho/">NoHo</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/nomad/">NoMad</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/nolita/">Nolita</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/rockefeller-center/">Rockefeller Center</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/roosevelt-island/">Roosevelt Island</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/seaport-district/">Seaport District</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/soho/">SoHo</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/stuyvesant-town/">Stuyvesant Town</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/sugar-hill/">Sugar Hill</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/sutton-place/">Sutton Place</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/theater-district/">Theater District</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/times-square/">Times Square</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/tribeca/">Tribeca</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/tudor-city/">Tudor City</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/turtle-bay/">Turtle Bay</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/union-square/">Union Square</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/upper-east-side/">Upper East Side</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/upper-west-side/">Upper West Side</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/washington-heights/">Washington Heights</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/west-harlem/">West Harlem</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/west-village/">West Village</a></li>
+<li><a href="https://manhattanappliancerepairnyc.com/ny/yorkville/">Yorkville</a></li>
 </div>
-<a href="tel:+19293310399" class="nav-call-btn">📞 Call Now</a>
-</div>
-</div>
-</header>
+ </ul>
+ </div>
+ <button class="nav-call-btn" id="navCallNow">📞 Call Now</button>
+ </div>
+ </div>
+ </header>
 
 <main>
 <div class="container">
@@ -1543,6 +1695,16 @@ align-items: center;
 const servicesMenu = document.getElementById('servicesMenu');
 const servicesToggle = document.getElementById('servicesToggle');
 const dropdownCloseBtn = document.getElementById('dropdownCloseBtn');
+const additionalToggle = document.getElementById('additionalToggle');
+const additionalSubmenu = document.getElementById('additionalSubmenu');
+const serviceAreasToggle = document.getElementById('serviceAreasToggle');
+const serviceAreasSubmenu = document.getElementById('serviceAreasSubmenu');
+
+function closeDropdown() {
+if (servicesMenu) servicesMenu.classList.remove('active');
+if (additionalSubmenu) additionalSubmenu.style.maxHeight = '0';
+if (serviceAreasSubmenu) serviceAreasSubmenu.style.maxHeight = '0';
+}
 
 if (servicesToggle) {
 servicesToggle.addEventListener('click', function(e) {
@@ -1554,15 +1716,42 @@ servicesMenu.classList.toggle('active');
 if (dropdownCloseBtn) {
 dropdownCloseBtn.addEventListener('click', function(e) {
 e.stopPropagation();
-servicesMenu.classList.remove('active');
+closeDropdown();
 });
 }
 
-document.addEventListener('click', function(e) {
-if (servicesMenu && !servicesMenu.contains(e.target)) {
-servicesMenu.classList.remove('active');
+if (additionalToggle) {
+additionalToggle.addEventListener('click', function(e) {
+e.stopPropagation();
+if (additionalSubmenu.style.maxHeight && additionalSubmenu.style.maxHeight !== '0px') {
+additionalSubmenu.style.maxHeight = '0';
+} else {
+additionalSubmenu.style.maxHeight = additionalSubmenu.scrollHeight + 'px';
 }
 });
+}
+
+if (serviceAreasToggle) {
+serviceAreasToggle.addEventListener('click', function(e) {
+e.stopPropagation();
+if (serviceAreasSubmenu.style.maxHeight && serviceAreasSubmenu.style.maxHeight !== '0px') {
+serviceAreasSubmenu.style.maxHeight = '0';
+} else {
+serviceAreasSubmenu.style.maxHeight = serviceAreasSubmenu.scrollHeight + 'px';
+}
+});
+}
+
+if (additionalSubmenu) {
+const additionalItems = additionalSubmenu.querySelectorAll('li');
+additionalItems.forEach(function(item) {
+item.addEventListener('click', function(e) {
+e.stopPropagation();
+});
+});
+}
+
+document.addEventListener('click', closeDropdown);
 </script>
 </body>
 </html>

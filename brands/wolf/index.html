@@ -492,28 +492,21 @@
  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
  }
  .service-icon {
- font-size: 52px;
- margin-bottom: 20px;
- color: var(--blue);
- transition: color .3s;
- width: 52px;
- height: 52px;
- min-height: 52px;
- max-height: 52px;
+ height: 120px;
  display: flex;
  align-items: center;
  justify-content: center;
- overflow: hidden;
- margin-left: auto;
- margin-right: auto;
+ margin-bottom: 20px;
+ color: var(--blue);
+ transition: color .3s;
  }
- .service-icon img {
- width: 52px;
- height: 52px;
- min-width: 52px;
- min-height: 52px;
- object-fit: contain;
- }
+    .service-icon img {
+            max-height: 80px;
+            width: auto;
+            object-fit: contain;
+            filter: brightness(1.15);
+            mix-blend-mode: multiply;
+        }
  .service h3 {
  min-height: 50px;
  display: flex;
@@ -1284,7 +1277,7 @@
  <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Professional Wolf Appliance Repair in Manhattan, NYC</h2>
  <div class="services-grid">
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Range repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Range repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Range Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1337,7 +1330,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Rangetop repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Rangetop repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Rangetop Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1390,7 +1383,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Cooktop repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Cooktop repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Cooktop Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1443,7 +1436,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Wall oven repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Wall oven repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Wall Oven Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1496,7 +1489,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Steam oven repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Steam oven repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Steam Oven Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1549,7 +1542,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Microwave repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/microwave.webp" alt="Microwave repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Microwave Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1602,7 +1595,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Ventilation repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/hood-vent.webp" alt="Ventilation repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Ventilation Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1655,7 +1648,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Warming drawer repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/oven.webp" alt="Warming drawer repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Warming Drawer Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>
@@ -1708,7 +1701,7 @@
  </div>
 
  <div class="service">
- <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Outdoor grill repair" loading="lazy" ></div>
+ <div class="service-icon"><img src="/assets/images/appliances/cooktop.webp" alt="Outdoor grill repair" width="80" height="80" loading="lazy"></div>
  <h3>Wolf Outdoor Grill Repair</h3>
  <div class="service-types">
  <h4>We Service All Types:</h4>

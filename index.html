@@ -2335,8 +2335,8 @@
  if (formContainer) {
  formContainer.classList.add('active');
  setTimeout(function() {
- formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
- }, 100);
+ formContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+ }, 550);
  }
  });
  }
@@ -2435,8 +2435,8 @@ if (scheduleFormToggle && scheduleFormContainer) {
  scheduleFormContainer.classList.toggle('active');
  if (scheduleFormContainer.classList.contains('active')) {
  setTimeout(function() {
- scheduleFormContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
- }, 100);
+ scheduleFormContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+ }, 550);
  }
  });
 }

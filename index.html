@@ -2437,8 +2437,8 @@ if (scheduleFormToggle && scheduleFormContainer) {
  scheduleFormContainer.classList.toggle('active');
  if (scheduleFormContainer.classList.contains('active')) {
  setTimeout(function() {
- scheduleFormContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
- }, 550);
+ scheduleFormContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }, 100);
  }
  });
 }

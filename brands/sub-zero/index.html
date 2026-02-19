@@ -2055,16 +2055,17 @@
  setupCallButton(document.getElementById('navCallNow'));
  setupCallButton(document.getElementById('formCallNow'));
  // Hero Schedule Button - scroll to form and open it
- const heroScheduleBtn = document.getElementById('heroScheduleBtn');
+ var heroScheduleBtn = document.getElementById('heroScheduleBtn');
  if (heroScheduleBtn) {
  heroScheduleBtn.addEventListener('click', function() {
  var formContainer = document.getElementById('scheduleFormContainer');
- var toggleBtn = document.getElementById('scheduleFormToggle');
  if (formContainer && !formContainer.classList.contains('active')) {
  formContainer.classList.add('active');
  }
- if (toggleBtn) {
- toggleBtn.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ setTimeout(function() {
+ formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }, 100);
+ });
  }
  });
  }

@@ -1945,7 +1945,9 @@
  const formContainer = document.getElementById('scheduleFormContainer');
  if (formContainer) {
  formContainer.classList.add('active');
+ setTimeout(function() {
  formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }, 100);
  }
  });
  }

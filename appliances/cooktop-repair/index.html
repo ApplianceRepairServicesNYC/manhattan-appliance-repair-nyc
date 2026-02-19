@@ -2206,13 +2206,13 @@
  const heroScheduleBtn = document.getElementById('heroScheduleBtn');
  if (heroScheduleBtn) {
  heroScheduleBtn.addEventListener('click', function() {
- const formContainer = document.getElementById('scheduleFormContainer');
- if (formContainer) {
+ var formContainer = document.getElementById('scheduleFormContainer');
+ if (formContainer && !formContainer.classList.contains('active')) {
  formContainer.classList.add('active');
- setTimeout(function() {
- formContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
- }, 550);
  }
+ setTimeout(function() {
+ formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }, 100);
  });
  }
  

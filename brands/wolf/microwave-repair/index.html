@@ -1947,12 +1947,13 @@
  if (heroScheduleBtn) {
  heroScheduleBtn.addEventListener('click', function() {
  var formContainer = document.getElementById('scheduleFormContainer');
+ var toggleBtn = document.getElementById('scheduleFormToggle');
  if (formContainer && !formContainer.classList.contains('active')) {
  formContainer.classList.add('active');
  }
- setTimeout(function() {
- formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
- }, 500);
+ if (toggleBtn) {
+ toggleBtn.scrollIntoView({ behavior: 'smooth', block: 'start' });
+ }
  });
  }
  

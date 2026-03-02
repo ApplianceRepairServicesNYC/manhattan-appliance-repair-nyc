@@ -1203,6 +1203,9 @@
         .trust-badges-container::-webkit-scrollbar { display: none; }
         .trust-badge {
             flex: 0 0 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             background: #fff;
             border-radius: 12px;
             padding: 20px 15px;
@@ -1215,7 +1218,7 @@
         .trust-badge .icon { font-size: 32px; margin-bottom: 8px; color: var(--blue); }
         .trust-badge:hover .icon { color: var(--red); }
         .trust-badge .title { font-size: 13px; font-weight: bold; color: #333; margin: 0 0 8px; }
-        .trust-badge .description { font-size: 11px; color: #555; line-height: 1.3; margin-bottom: 8px; white-space: normal; }
+        .trust-badge .description { font-size: 11px; color: #555; line-height: 1.3; margin-bottom: 8px; white-space: normal; flex-grow: 1; }
         .trust-badge .toggle-button {
             background: linear-gradient(45deg, var(--blue), #0052cc);
             color: #fff;

@@ -2605,6 +2605,25 @@ if (sfModalOverlay) {
  if (sfCloseModal) sfCloseModal.click();
  };
 }
+
+// Badge Modal Functions
+document.querySelectorAll('.trust-badge .toggle-button').forEach(function(button) {
+ button.addEventListener('click', function() {
+  var title = this.getAttribute('data-title');
+  var details = this.getAttribute('data-details');
+  document.getElementById('badgeModalTitle').textContent = title;
+  document.getElementById('badgeModalContent').textContent = details;
+  document.getElementById('badgeModal').classList.add('active');
+  document.getElementById('badgeModalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+ });
+});
+
+function closeBadgeModal() {
+ document.getElementById('badgeModal').classList.remove('active');
+ document.getElementById('badgeModalOverlay').classList.remove('active');
+ document.body.style.overflow = '';
+}
 </script>
 </body>
 </html>
